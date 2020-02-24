@@ -1,0 +1,108 @@
+
+
+/* Class = "UITextField"; placeholder = "扫码或输入"; ObjectID = "8S4-nd-LlO"; */
+"8S4-nd-LlO.placeholder" = "Scan or Input";
+
+
+/* Class = "UILabel"; text = "确认钱包助记词"; ObjectID = "DV6-qK-IIG"; */
+"DV6-qK-IIG.text" = "Please confirm your wallet mnemonic phrase";
+
+
+
+/* Class = "UIButton"; normalTitle = "   导入钱包"; ObjectID = "ITj-uQ-0pp"; */
+"ITj-uQ-0pp.normalTitle" = "   Import Wallet";
+
+
+//备份助记词
+"OBg-kj-Ieu.text" = "Backup your wallet: To secure your mnemonic phrase, export them and write them down on paper. Do not save your mnemonic phrase online. You can test your wallet by transferring a small amount of funds.";
+
+/* Class = "UIButton"; normalTitle = "复制收款地址"; ObjectID = "Q7W-2P-pIx"; */
+"Q7W-2P-pIx.normalTitle" = "Copy address";
+
+
+
+/* Class = "UIButton"; normalTitle = "查看详细教程"; ObjectID = "ULe-rx-oj3"; */
+"ULe-rx-oj3.normalTitle" = "View detailed tutorial";
+
+
+
+
+/* Class = "UITextField"; placeholder = "QQ/手机/邮箱"; ObjectID = "W3t-mz-uTY"; */
+"W3t-mz-uTY.placeholder" = "QQ/Phone/E-mail";
+
+
+/* Class = "UILabel"; text = "HPB"; ObjectID = "Zvz-Do-P3u"; */
+"Zvz-Do-P3u.text" = "HPB";
+
+
+/* Class = "UILabel"; text = "联系方式"; ObjectID = "ahe-aS-4Dg"; */
+"ahe-aS-4Dg.text" = "Contact";
+
+
+/* Class = "UILabel"; text = "最后一步：立即备份你的钱包！"; ObjectID = "bYw-MW-bpE"; */
+"bYw-MW-bpE.text" = "Create Success,Backup your wallet!";
+
+"byX-mD-TXe.text" = "Transferred to";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "jyq-bE-TTT"; */
+"jyq-bE-TTT.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "   创建钱包"; ObjectID = "k5k-eH-8WI"; */
+"k5k-eH-8WI.normalTitle" = "   Create Wallet";
+
+
+"pM2-UB-JvS.text" = "Currency";
+
+/* Class = "UILabel"; text = "分类"; ObjectID = "q23-Bt-hAH"; */
+"q23-Bt-hAH.text" = "Category";
+
+"qge-X7-fsh.text" = "Write down your wallet's mnemonic phrase";
+
+
+/* Class = "UILabel"; text = "标题"; ObjectID = "rzq-gc-wLb"; */
+"rzq-gc-wLb.text" = "Title";
+
+"t9v-Wk-nQW.text" = "Please click the mnemonic phrase in the right order to confirm your backup mnemonic phrase is correct.";
+
+
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "xU1-d3-rJV"; */
+"xU1-d3-rJV.normalTitle" = "Submit";
+
+
+"xcA-N4-R4C.text" = "Mnemonic phrase is used to recover your wallet or reset your wallet password. Please make sure they are correctly written down and secured in a safe place.";
+
+
+/* Class = "UILabel"; text = "多语言"; ObjectID = "zW5-Ih-JTG"; */
+"zW5-Ih-JTG.text" = "Languages";
+
+
+
+/* Class = "UIButton"; normalTitle = "已有映射钱包？点击直接进入钱包列表"; ObjectID = "S7x-oK-HeD"; */
+"S7x-oK-HeD.normalTitle" = "List of mapped wallets";
+
+
+"dXL-t1-9Vq.text" = "Amount";
+
+
+"g8z-bV-uUd.text" = "Note: Please ensure the address and currency entered are correct as the transfer action cannot be undone.";
+
+"xdS-Dx-FPf.text" = "Sender";
+
+
+"Pbl-cX-BaO.text" = "Receiver";
+
+
+"YQj-J3-V3b.placeholder" = "0.00";
+
+
+/* Class = "UIButton"; normalTitle = "全部转出"; ObjectID = "swJ-zW-3gf"; */
+"swJ-zW-3gf.normalTitle" = "All";
+
+
+/* Class = "UILabel"; text = "正在获取"; ObjectID = "kBI-lc-vb7"; */
+"kBI-lc-vb7.text" = "Receiving";
+
+
+
+

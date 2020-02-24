@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HPBAdController" customModule="HPBWallet" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="2ew-9M-f1S" id="aSY-Qe-phT"/>
+                <outlet property="jumpBtn" destination="MWJ-Bt-GDm" id="AzE-Ob-oUl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2ew-9M-f1S">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MWJ-Bt-GDm">
+                    <rect key="frame" x="324" y="50" width="70" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="4jc-ih-qex"/>
+                        <constraint firstAttribute="width" constant="70" id="ahV-Ci-M9T"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="跳过"/>
+                    <connections>
+                        <action selector="jumpBtnClick:" destination="-1" eventType="touchUpInside" id="UQF-dc-S2N"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="MWJ-Bt-GDm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="6xu-dc-lRP"/>
+                <constraint firstItem="2ew-9M-f1S" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="D0M-OQ-tMz"/>
+                <constraint firstAttribute="trailing" secondItem="MWJ-Bt-GDm" secondAttribute="trailing" constant="20" id="eOQ-aB-Ghm"/>
+                <constraint firstItem="2ew-9M-f1S" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="u8d-ce-3ma"/>
+                <constraint firstItem="2ew-9M-f1S" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="wMK-O2-C3t"/>
+                <constraint firstItem="2ew-9M-f1S" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="wys-Tl-iBW"/>
+            </constraints>
+            <point key="canvasLocation" x="-768" y="174"/>
+        </view>
+    </objects>
+</document>

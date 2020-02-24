@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HPBShakeAlertView" customModule="HPBWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JUz-Lc-Ef8">
+                    <rect key="frame" x="40" y="233.5" width="295" height="200"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="redpacket_shake_yes" translatesAutoresizingMaskIntoConstraints="NO" id="ig0-UB-D9z">
+                            <rect key="frame" x="96" y="-50" width="103" height="106.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="ig0-UB-D9z" secondAttribute="height" multiplier="121:125" id="4BF-ur-iOn"/>
+                                <constraint firstAttribute="width" constant="103" id="Utm-Yb-QNz"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJ2-lc-rHc">
+                            <rect key="frame" x="36.5" y="116" width="222" height="69"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="wJ2-lc-rHc" secondAttribute="height" multiplier="74:23" id="jvL-3I-Bbz"/>
+                                <constraint firstAttribute="width" constant="222" id="ydz-0N-FbS"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="领取" backgroundImage="redpacket_shake_btn">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="bottomBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="otL-In-qct"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="恭喜您摇到一个红包" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfx-fQ-gjg">
+                            <rect key="frame" x="60" y="74.5" width="175" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.32941176470588235" green="0.396078431372549" blue="0.54509803921568623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="wJ2-lc-rHc" secondAttribute="bottom" constant="15" id="2oV-Qu-QP8"/>
+                        <constraint firstItem="ig0-UB-D9z" firstAttribute="top" secondItem="JUz-Lc-Ef8" secondAttribute="top" constant="-50" id="Jci-IZ-MRH"/>
+                        <constraint firstItem="Mfx-fQ-gjg" firstAttribute="leading" secondItem="JUz-Lc-Ef8" secondAttribute="leading" constant="60" id="WCb-tr-PLf"/>
+                        <constraint firstItem="wJ2-lc-rHc" firstAttribute="centerX" secondItem="JUz-Lc-Ef8" secondAttribute="centerX" id="fHe-Vm-8YD"/>
+                        <constraint firstAttribute="height" constant="200" id="kFS-Vf-c1G"/>
+                        <constraint firstItem="Mfx-fQ-gjg" firstAttribute="top" secondItem="ig0-UB-D9z" secondAttribute="bottom" constant="18" id="oVg-6m-yDi"/>
+                        <constraint firstItem="ig0-UB-D9z" firstAttribute="centerX" secondItem="JUz-Lc-Ef8" secondAttribute="centerX" id="rnT-LJ-r52"/>
+                        <constraint firstAttribute="width" constant="295" id="tCB-Js-a1S"/>
+                        <constraint firstItem="Mfx-fQ-gjg" firstAttribute="centerX" secondItem="JUz-Lc-Ef8" secondAttribute="centerX" id="uC0-VK-Qkt"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3SH-JH-hot">
+                    <rect key="frame" x="295" y="178" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="TFz-28-5R1"/>
+                        <constraint firstAttribute="height" constant="40" id="vkf-wR-wUl"/>
+                    </constraints>
+                    <state key="normal" image="common_white_close"/>
+                    <connections>
+                        <action selector="closeBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="S9t-M2-JtF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="3SH-JH-hot" firstAttribute="trailing" secondItem="JUz-Lc-Ef8" secondAttribute="trailing" id="Sbd-fO-H3T"/>
+                <constraint firstItem="JUz-Lc-Ef8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SnV-An-X4i"/>
+                <constraint firstItem="JUz-Lc-Ef8" firstAttribute="top" secondItem="3SH-JH-hot" secondAttribute="bottom" constant="15.5" id="ZcM-tO-Mo3"/>
+                <constraint firstItem="JUz-Lc-Ef8" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="azY-Ys-Pyt"/>
+            </constraints>
+            <connections>
+                <outlet property="backView" destination="JUz-Lc-Ef8" id="TjK-Xn-s3c"/>
+                <outlet property="bottomBtn" destination="wJ2-lc-rHc" id="AYy-1m-Fpy"/>
+                <outlet property="centerLabel" destination="Mfx-fQ-gjg" id="H9I-sT-F6S"/>
+                <outlet property="topImage" destination="ig0-UB-D9z" id="jsR-HA-7Py"/>
+            </connections>
+            <point key="canvasLocation" x="74.400000000000006" y="73.313343328335833"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="common_white_close" width="22" height="23"/>
+        <image name="redpacket_shake_btn" width="690" height="222"/>
+        <image name="redpacket_shake_yes" width="121" height="120"/>
+    </resources>
+</document>

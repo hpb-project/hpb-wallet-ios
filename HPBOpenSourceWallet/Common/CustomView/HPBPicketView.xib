@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HPBPicketView" customModule="HPBWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3fL-qR-PvU">
+                    <rect key="frame" x="0.0" y="307" width="375" height="360"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X4b-FP-9dr">
+                            <rect key="frame" x="0.0" y="12" width="375" height="348"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ekg-dX-1WW">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Re4-m9-3Vl">
+                                    <rect key="frame" x="0.0" y="16" width="375" height="17"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <string key="text">选择领取地址
+
+</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="0.098039215686274508" green="0.11764705882352941" blue="0.14509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="Re4-m9-3Vl" firstAttribute="top" secondItem="ekg-dX-1WW" secondAttribute="top" constant="16" id="ZZ8-D4-KaG"/>
+                                <constraint firstAttribute="trailing" secondItem="Re4-m9-3Vl" secondAttribute="trailing" id="cvt-pi-yX2"/>
+                                <constraint firstAttribute="height" constant="40" id="fNg-Rg-MEX"/>
+                                <constraint firstItem="Re4-m9-3Vl" firstAttribute="leading" secondItem="ekg-dX-1WW" secondAttribute="leading" id="oA4-Ue-J0O"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ghw-6A-zyi">
+                            <rect key="frame" x="0.0" y="40" width="375" height="201"/>
+                        </pickerView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bvk-2B-S03" customClass="HPBSelectImgeButton" customModule="HPBWallet" customModuleProvider="target">
+                            <rect key="frame" x="20" y="261" width="335" height="40"/>
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.2627450980392157" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="D51-Po-y1r"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="确认"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="confirmClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="ZIp-mJ-KxG"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65r-ed-U38">
+                            <rect key="frame" x="20" y="311" width="335" height="33"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="33" id="O8y-k8-tzj"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="取消">
+                                <color key="titleColor" red="0.20000000000000001" green="0.2627450980392157" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="closeBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="lLH-57-gxZ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Bvk-2B-S03" firstAttribute="top" secondItem="ghw-6A-zyi" secondAttribute="bottom" constant="20" id="2l0-8F-IV2"/>
+                        <constraint firstItem="ekg-dX-1WW" firstAttribute="top" secondItem="3fL-qR-PvU" secondAttribute="top" id="4Tt-Ce-ELJ"/>
+                        <constraint firstItem="65r-ed-U38" firstAttribute="leading" secondItem="3fL-qR-PvU" secondAttribute="leading" constant="20" id="Ats-Ah-gzs"/>
+                        <constraint firstAttribute="trailing" secondItem="ghw-6A-zyi" secondAttribute="trailing" id="JKY-Ca-Uxi"/>
+                        <constraint firstItem="X4b-FP-9dr" firstAttribute="leading" secondItem="3fL-qR-PvU" secondAttribute="leading" id="N2t-fP-62T"/>
+                        <constraint firstItem="ghw-6A-zyi" firstAttribute="top" secondItem="ekg-dX-1WW" secondAttribute="bottom" id="Nd8-Yg-DsR"/>
+                        <constraint firstAttribute="bottom" secondItem="65r-ed-U38" secondAttribute="bottom" constant="16" id="NmG-3U-qfL"/>
+                        <constraint firstAttribute="trailing" secondItem="ekg-dX-1WW" secondAttribute="trailing" id="Qs6-zc-cqm"/>
+                        <constraint firstAttribute="trailing" secondItem="X4b-FP-9dr" secondAttribute="trailing" id="UtM-lK-Ckf"/>
+                        <constraint firstAttribute="height" constant="360" id="VTd-Ak-ti6"/>
+                        <constraint firstItem="X4b-FP-9dr" firstAttribute="top" secondItem="3fL-qR-PvU" secondAttribute="top" constant="12" id="ehC-Jq-kDh"/>
+                        <constraint firstItem="ekg-dX-1WW" firstAttribute="leading" secondItem="3fL-qR-PvU" secondAttribute="leading" id="h9k-jq-SEP"/>
+                        <constraint firstItem="ghw-6A-zyi" firstAttribute="leading" secondItem="3fL-qR-PvU" secondAttribute="leading" id="ia5-h6-486"/>
+                        <constraint firstItem="65r-ed-U38" firstAttribute="centerX" secondItem="3fL-qR-PvU" secondAttribute="centerX" id="mmb-ON-wxN"/>
+                        <constraint firstAttribute="bottom" secondItem="X4b-FP-9dr" secondAttribute="bottom" id="nlc-fO-Rvh"/>
+                        <constraint firstItem="Bvk-2B-S03" firstAttribute="leading" secondItem="3fL-qR-PvU" secondAttribute="leading" constant="20" id="os3-Ka-lP6"/>
+                        <constraint firstAttribute="trailing" secondItem="Bvk-2B-S03" secondAttribute="trailing" constant="20" id="wA4-ey-3BN"/>
+                        <constraint firstItem="65r-ed-U38" firstAttribute="top" secondItem="Bvk-2B-S03" secondAttribute="bottom" constant="10" id="wmy-2d-nhg"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W24-TB-nfH">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="307"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="3fL-qR-PvU" secondAttribute="bottom" id="0zj-ls-Z7r"/>
+                <constraint firstItem="3fL-qR-PvU" firstAttribute="top" secondItem="W24-TB-nfH" secondAttribute="bottom" id="Ewn-4x-3GM"/>
+                <constraint firstAttribute="trailing" secondItem="W24-TB-nfH" secondAttribute="trailing" id="dsz-83-CPP"/>
+                <constraint firstItem="3fL-qR-PvU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dva-m4-PbT"/>
+                <constraint firstItem="W24-TB-nfH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="scR-l3-b2M"/>
+                <constraint firstAttribute="trailing" secondItem="3fL-qR-PvU" secondAttribute="trailing" id="sxV-ZK-7s9"/>
+                <constraint firstItem="W24-TB-nfH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zcB-WL-JrF"/>
+            </constraints>
+            <connections>
+                <outlet property="backView" destination="3fL-qR-PvU" id="kQz-lH-4ds"/>
+                <outlet property="bottomConstraint" destination="0zj-ls-Z7r" id="hk8-n1-5Xg"/>
+                <outlet property="cancelBtn" destination="65r-ed-U38" id="PcU-9t-IOg"/>
+                <outlet property="confirmBtn" destination="Bvk-2B-S03" id="MVm-gc-ofc"/>
+                <outlet property="pickerView" destination="ghw-6A-zyi" id="Oec-U1-8ol"/>
+                <outlet property="titleLabel" destination="Re4-m9-3Vl" id="4ph-fX-8pD"/>
+                <outlet property="topView" destination="W24-TB-nfH" id="Lwi-X0-KvM"/>
+            </connections>
+            <point key="canvasLocation" x="326" y="-336"/>
+        </view>
+    </objects>
+</document>

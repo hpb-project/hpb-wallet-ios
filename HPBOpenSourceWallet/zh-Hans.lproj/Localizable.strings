@@ -1,0 +1,746 @@
+/* 
+  Localizable.strings
+  HPBWallet
+
+  Created by 刘晓亮 on 2018/6/6.
+  Copyright © 2018年 Zhaoxi Network. All rights reserved.
+*/
+
+//Tab
+"TabBar-Main.title" = "资产";
+"TabBar-News.title" = "发现";
+"TabBar-My.title"   = "我的";
+
+/* -------------------公共------------------- */
+"Common-Max-Wallet" = "超过钱包最大数量";
+"Common-jailbroken-Phone" = "当前手机已越狱，使用越狱手机交易极不安全，建议更换手机后操作。";
+"Common-Back—Title" = "返回";
+"Common-Save-Wallet-Faile" =  "钱包保存失败！";
+"Common-Generate-Wallet-Faile" = "生成钱包失败！";
+"Common-Generate-KS-Faile" = "生成Keystore文件出错";
+"Common-Get-KS-Faile" = "获取Keystore文件出错";
+"Common-File-Read-Faile" = "文件读取出错！";
+"Common-GetAddress-Faile" = "获取地址出错！";
+"Common-GetWalletInfo-Faile" = "获取钱包信息错误";
+"Common-Delete-Faile" ="删除失败";
+"Common-Delete-Kstore-Faile" = "删除Kstore文件失败";
+"Common-Address-Faile" = "钱包地址错误！";
+"Common-Update-Faile" = "更新失败！";
+"Common-Loding" = "加载中";
+"Common-Sever-Privacy" = "服务及隐私条款";
+"Common-Agree-Privacy" = "我已经仔细阅读并同意 ";
+"Common-Recomend-Password" = "密码不少于8位，建议混合字母，数字，特殊字符";
+"Common-Privacy" =  "隐私条款";
+"Common-Cancel" = "取消";
+"CommonAlert-Export-PrivateKey" = "如果有人获取你的私钥将直接获取你的资产！请抄写下私钥并存放在安全的地方。";
+"CommonAlert-Export-Mnemonic" = "如果有人获取你的助记词将直接获取你的资产！请抄写下助记词并存放在安全的地方";
+"CommonAlert-Export-Keystore" = "请确保四周无人及任何摄像头！无用截图或拍照的方式保存Keystore文件或对应二维码";
+"Common-Got-it" = "知道了";
+"Common-Copyed" = "已复制";
+"Common-Save" = "保存";
+"Common-Confirm" = "确认";
+"Common-Alert-Confirm" = "好的";
+"Common-Load-faile" = "数据加载失败，请重试！";
+"Common-Reload" = "重新加载";
+"Common-Version-Update" = "版本更新";
+"Common-No-Screenshot" = "请勿截图";
+"Common-Now" = "刚刚";
+"Common-Today" = "今天";
+"Common-Yesterday" = "昨天";
+"Common-NO-Camera" = "确认周围无人及摄像头";
+"Common-NO-Network" = "网络异常，请检查网络后再试";
+"Common-Tip" = "温馨提示";
+"Common-Copy-Success" = "复制成功";
+"Common-No-Wallet" = "您还没有钱包，是否去创建？";
+"Common-Password-enter-Placehoder" = "请输入密码";
+"Common-Confirm-Title" = "确认密码";
+"Common-Confirm-Placehoder" = "请再次确认密码";
+"Common-Password-Hint" = "密码提示信息（可不填）";
+"Common-Password-8wei" = "密码不能少于8位";
+"Common-Password-20wei" = "密码不能大于20位";
+"Common-Name-Empty" = "钱包名称不能为空";
+"Common-Password-Empty" = "密码不能为空";
+"Common-Notmatch" = "输入密码不一致";
+"Common-Submit" = "已提交";
+"Common-balance" = "余额";
+"Common-Safe-Top-1" = "HPB芯链独立于以太坊在内的区块链平台，请勿 跨链转账，防止资产丢失";
+"Common-Safe-Top-2" = "HPB钱包仅支持在其自身平台上发行的通证";
+"Common-Safe-Center" = "注：HPB暂不支持跨链转账";
+"Common-Safe-Confirm" = "知道了";
+"Common-Safe-No-Tip"  = "不再提示";
+"Common-Share-Download" = "管理数字资产，掌握最新资讯";
+"Common-Share-From" = "来自HPB Wallet APP分享";
+"Common-Share-Success" = "分享成功";
+"Common-Share-Faile" = "分享失败";
+"Common-Share-To" = "分享至";
+"Common-Share-Btn" = "分享";
+"Common-Share-Not-Install-weibo" = "您还没有安装新浪微博";
+"Common-Share-Not-Install-qq" = "您还没有安装QQ";
+"Common-Share-Not-Install-weChat" = "您还没有安装微信";
+"Common-Password-Strength-L" = "低";
+"Common-Password-Strength-M" = "中";
+"Common-Password-Strength-H" = "高";
+"Common-week-7" = "星期日";
+"Common-week-1" = "星期一";
+"Common-week-2" = "星期二";
+"Common-week-3" = "星期三";
+"Common-week-4" = "星期四";
+"Common-week-5" = "星期五";
+"Common-week-6" = "星期六";
+"Common-Save-Success" = "保存成功";
+"Common-TouchID-NotSet" = "当前手机未设置，现在设置？";
+"Common-FaceID-Message" = "Face ID短时间内失败多次，需要验证手机密码";
+"Common-TouchID-Message" = "请把你的手指放到Home键上";
+"Common-Lock-weakup" =  "点击唤醒验证";
+"Common-Address-Empty-Tip" = "钱包地址不能为空";
+"Common-Close" = "关闭";
+"Common-Auth-Login-Title" = "授权登录";
+"Common-Auth-Address-Title" = "授权地址";
+"Common-Auth-Alert-Title" = "输入密码确认授权";
+"Common-Next" = "下一步";
+"Common-ColdWallet-Btn-Title" = "  冷钱包  ";
+"Common-Pay-WhiteList-error"  = "支付地址不合法";
+"Common-ColdWallet-cannot"  = "冷钱包不能进行此操作";
+"Common-Photo-Auth"  = "HPB Wallet没有权限使用您的相册，您可以通过如下操作开启。";
+"Common-Photo-Open"  = "1.打开iPhone设置\n\n2.点击“隐私”\n\n3.点击“相机”\n\n4.设置“HPB Wallet”为启用";
+"Common-Open-Right" = "开";
+"Common-Close-Right" = "关";
+"Common-Photo-Auth-Tip" = "请在iPhone的'设置-隐私-照片'选项中,允许HPB Wallet访问你的照片";
+"Common-IQ-Done" = "完成";
+"Common-Block-Confirming-State" = "区块确认中(大约6s)";
+"Common-All" = "全部";
+"Common-Password-Title" = "输入密码";
+"Common-List-Empty" = "当前列表为空";
+"Common-Money-RMB" = "人民币";
+"Common-Money-USD" = "美元";
+"Common-Unset" = "未设置";
+"Common-Select" = "筛选";
+"Common-MainNet-Coin" = "币种";
+"Common-HRC-Token" = "币种";
+
+"Common-Seting-Success" = "设置成功";
+"Common-Seting-Faile" = "设置失败";
+"Common-add-Wallet" =  "新增钱包";
+
+"Common-send-Signture" = "是否发送签名?";
+
+//---------------网络请求错误提示-------------------
+"Network-Error-Block-Error"     = "主网正在维护";
+"Network-Error-Invalue-Address" = "不合法的钱包地址";
+"Network-Error-Invalue-TradeHash" = "不合法交易HASH";
+"Network-Error-Invalue-BlockHash" = "不合法区块HASH";
+"Network-Error-Error-Param" = "参数错误";
+"Network-Datarequest-Faile" = "数据加载失败，请稍后重试";
+"Network-Error-Nonce-Low" = "nonce值过小";
+"Network-Error-No-Funds" = "账户余额不足";
+"Network-Error-Pack" = "交易正在打包";
+
+
+
+
+
+//---------------引导页-------------------
+"Guide-skip"    = "跳过";
+"Guide-clickIn" = "立即开启";
+
+
+"Guide-Page-Top-1" = "全面支持 \n HRC-20 & HRC-721";
+"Guide-Page-Top-2" = "节点分红";
+"Guide-Page-Top-3" = "界面全新升级";
+"Guide-Page-1" = "HPB Wallet现已全面支持HRC-20和 HRC-721标准资产展示";
+"Guide-Page-2" = "节点人自主分红功能正式上线";
+"Guide-Page-3" = "HPB Wallet V2.0界面全新改版";
+
+
+//---------------首页-------------------
+//****首页****
+"Main-Receipt" = "收款";
+"Main-Transfer" = "转账";
+"Main-Scan" = "扫一扫";
+"Main-Sync" =  "同步资产";
+
+"SwitchWallet-Wallet-List" = "钱包列表";
+"Main-No-Wallet-1" = "您还没有专属钱包";
+"Main-No-Wallet-2" = "现在创建";
+"Main-Total-Assert" = "总资产";
+"Main-Asset-List" = "资产列表";
+"Main-Change-Address" =  "切换地址";
+
+//********扫描页面********
+"Scan-Start" = "相机启动中";
+"Scan-QR" = "二维码";
+"Scan-Top-Tip" = "将取景框对准二维码即可自动扫描";
+"Scan-Album" = "机册";
+"Scan-Confirm" = "确定";
+"Scan-Title" = "扫码";
+"Scan-Failed-Ident" = "识别失败";
+"HPBScanController-WrongCode-Tip" = "二维码不正确，请扫描钱包收款码";
+"Scan-ActionSheet-AccountInfo" = "查询账户信息";
+"HPBScanController-WrongSign-Tip" = "签名二维码不正确，请扫描HPB冷钱包签名结果";
+
+
+//********收款页面********
+"Receipt-Title" = "收款";
+"Receipt-QrCode-Tip" = "HPB Wallet收款码";
+"Receipt-QrCode-Show" = "收款码";
+"Receipt-Save-Photo" = "保存图片";
+
+//********转账页面********
+"Transfer-Title-Transfer" = "转账";
+"Transfer-Btn-Send" = "转账";
+"Transfer-Title-Mapping" = "映射";
+"Transfer-Remark" =  "添加备注（50字以内）";
+"Transfer-remain" = "可转";
+"Transfer-Address-Empty" = "转账地址不能为空";
+"Transfer-Address-inValid" = "转账地址不合法";
+"Transfer-Amount-Empty" = "转出金额不能为空";
+"Transfer-Beyound-Amount" = "超出最大转出金额";
+"Transfer-No-ToMyself" = "不能向自己转账";
+"Transfer-Mapping-Detail" =  "映射详情";
+"Transfer-Get-Fee-Faile" = "交易费用获取失败";
+"Transfer-Submit" = "发送交易成功";
+"Transfer-Currency-Type" = "币种类型";
+"Transfer-MainNet-Coin" = "主链币";
+"Transfer-Token-Management" = "代币管理";
+"Transfer-Token-Transfer" = "代币转移";
+"Transfer-Token-Inventory" = "库存";
+"Transfer-Token-ID" = "代币ID";
+"Transfer-Select-Currency-Type" = "选择币种类型";
+"Transfer-Select-Token" = "选择币种";
+"Transfer-NO-Available-Tokens" =  "暂无可转移的代币";
+"Transfer-First-Select-Tip" = "请先选择币种";
+"Transfer-Transfer-Times" = "转移次数";
+"Transfer-10-most-Recent" = "最近10笔转移";
+"Transfer-Select-ID-Ranking" = "序号";
+"Transfer-Select-ID-Title" = "选择代币ID";
+"Transfer-Select-ID-Button" = "选择代币ID";
+"Transfer-721-Transfer-ID" = "转出代币ID";
+"Transfer-721-Transfer-ID-Empty-Tip" = "代币ID不能为空";
+"Transfer-Coin-Type-Empty-Tip" = "您还未选中币种类型";
+"Transfer-Coin-Select-Empty-Tip" = "您还未选中币种";
+"Transfer-Out-Title-Quantity" = "转出数量";
+
+
+
+//********交易详情********
+"TransferConfirm-Details" =  "确认支付";
+"TransferConfirm-Order-Info" = "订单类型";
+"TransferConfirm-Receiver" = "转入地址";
+"TransferConfirm-Sender" = "付款地址";
+"TransferConfirm-Payment" = "付款金额";
+"TransferConfirm-Addition-Info" = "其他信息";
+
+//********我的资产********
+"TotalAsset-Title" = "HPB资产";
+"TotalAsset-Assert:" = "总资产约合:";
+"TotalAsset-History" = "交易记录";
+
+//****冷钱包转账页面****
+"Cold-Transfer-Title" = "冷钱包转账";
+"Cold-Transfer-TopTip" = "请使用冷钱包扫码\n填写并签名转账信息";
+"Cold-Transfer-Code-Detail" = "二维码信息详情";
+
+"Cold-Transfer-Code-Sync" = "请使用冷钱包扫描屏幕上方二维码";
+
+//---------------资讯-------------------
+
+
+"News-Top-Node" = "节点分红";
+"News-Top-Governance" = "投票治理";
+"News-Top-Vote" = "竞选投票";
+"News-Top-Mapping" = "主网映射";
+"News-Top-RedPacket" = "红包";
+"News-Top-Sinature" = "数字签名";
+
+"News-News.title" = "资讯";
+"News-Brief-News" = "快讯";
+"News-Reads" = " 阅读";
+"News-Express" = " HPB快报 ";
+"News-More" = "更多";
+"News-Up" = "收起";
+"News-Detail" = "资讯详情";
+"News-DAPPs" = "应用";
+"News-DAPPs-Privacy-Tip" = "您即将进入第三方应用，并同意第三方应用的《用户协议》及《隐私政策》，第三方可请求您的钱包地址，您在第三方用的行为将由第三方承担责任。";
+"News-RedPacket" = "红包";
+"News-Send-RedPacket" = "发红包";
+"News-RedPacket-Record" = "红包记录";
+"News-RedPacket-Detail" = "红包详情";
+"News-RedPacket-Total-Money" = "总金额";
+"News-RedPacket-Random-Tip-1" = "当前为随机红包，单个红包金额随机，改为";
+"News-RedPacket-Random-Tip-2" = "普通红包";
+"News-RedPacket-Single-Money" = "单个红包金额";
+"News-RedPacket-Single-Tip-1" = "当前为普通红包，单个红包金额固定，改为";
+"News-RedPacket-Single-Tip-2" = "拼手气红包";
+"News-RedPacket-Number" = "红包个数";
+"News-RedPacket-Placehoder" = "恭喜发财，大吉大利!";
+"News-RedPacket-SendButton" = "塞币进红包";
+"News-RedPacket-BottomTip-24H" = "24小时内未领取，红包金额将退回原地址";
+"News-RedPacket-Packeting" = "红包打包中";
+"News-RedPacket-Money—Input" = "请输入金额";
+"News-RedPacket-Number—Input" = "请输入个数";
+
+"News-RedPacket-Refresh" = "点击刷新";
+"News-RedPacket-Confirm-Wait" = "转账信息等待网络确认（大约6秒）";
+"News-RedPacket-Finish" = "红包已就绪";
+"News-RedPacket-DateLine" = "红包有效期24小时";
+"News-RedPacket-Share" = "送您一个HPB红包";
+"News-RedPacket-Scan-open" = "扫码领取红包";
+"News-RedPacket-Save-Image" = "保存到手机";
+
+"News-RedPacket-Wait-Receive" = "您有待领取HPB红包";
+"News-RedPacket-To-Receive" = "领取红包";
+
+"News-RedPacket-Receive-Select-Address" = "选择领取地址";
+"News-RedPacket-Record-Sent" = "我发出的";
+"News-RedPacket-Record-Received" = "我收到的";
+"News-RedPacket-Send-Faile" = "红包发送失败";
+
+"News-RedPacket-Record-Sent—Total" =  "共发出红包(个)";
+"News-RedPacket-Record-Receive—Total" =  "共收到红包(个)";
+"News-RedPacket-Record-Send—Empty" =  "你还没有发送过红包";
+"News-RedPacket-Record-Receive—Empty" =  "你还没有收到红包";
+
+"News-RedPacket-Identical" = "普通红包";
+"News-RedPacket-Random" = "拼手气红包";
+"News-RedPacket-Received" =  "已领取";
+"News-RedPacket-State-Faile" =  "很遗憾，手慢没抢到，下次努力吧";
+"News-RedPacket-State-Conforming" =  "确认中";
+"News-RedPacket-State-Receive-Over" =  "已领完";
+"News-RedPacket-State-Expired" =  "已结束";
+"News-RedPacket-State-Ongoing" =  "进行中";
+"News-RedPacket-Continue-Send" =  "继续发送";
+"News-RedPacket-Luckiest" =  "手气最佳";
+"News-RedPacket-Transfer-In" =  "红包金额已存入 ";
+"News-RedPacket-State-Had-Received" =  "已失效";
+"News-RedPacket-State-Had-All-Received" = "当前红包已领完";
+
+"News-RedPacket-Money-Empty-Tip" = "红包金额不能为空";
+"News-RedPacket-Number-Empty-Tip" = "红包个数不能为空";
+"News-RedPacket-Beyong-MaxMoney-Tip" = "余额不足";
+"News-RedPacket-Number-100-Tip" = "一次最多发100个红包";
+"News-RedPacket-Money-100HPB-Tip" = "红包金额不能超过10000 HPB";
+"News-RedPacket-Money-10HPB-Tip" = "单个红包金额不能超过100 HPB";
+"News-RedPacket-Money-0.01HPB-Tip" = "单个红包金额不能小于0.01 HPB";
+
+
+"News-RedPacket-Receive-Success-Tip" = "领取成功";
+"News-RedPacket-Receive-End-Tip" = "当前红包已过期";
+"News-RedPacket-Receive-Had-Tip" = "已领取过当前红包，请勿重复领取";
+"News-RedPacket-Receive-Exprite-Tip" = "当前Key已失效";
+"News-RedPacket-Receive-Invalid-Tip" = "无效的Key";
+"News-RedPacket-Receive-Confirm-Tip-1" = "系统正在努力为您抢红包中，请稍候";
+"News-RedPacket-Receive-Confirm-State-1" = "区块确认中";
+"News-RedPacket-Receive-Select-Tip" = "你还没有选择地址";
+"News-RedPacket-Receive-Creat-Tip" = "您当前钱包还未创建地址，无法领取红包，请先创建地址！";
+"News-RedPacket-Receive-Creat-Btn" = "立即创建";
+"News-RedPacket-Send-Type-Normal" = "普";
+"News-RedPacket-Send-Type-Random" = "拼";
+"News-RedPacket-Share-Title" = "来自 HPB 的HPB红包";
+
+"News-RedPacke-Shake-Success" = "恭喜您摇到一个红包";
+"News-RedPacke-Shake-Faile" = "什么都没有哦～继续努力吧！";
+"News-RedPacke-Shake-Btn-Receive" = "领取";
+"News-RedPacke-Shaking-Packet-over" = "摇一摇红包已结束";
+"News-Dividend-Title" = "节点分红";
+"News-Dividend-Record" = "分红记录";
+"News-Dividend-Empty-Node" = "提示：当前地址非节点地址\n暂无节点相关信息";
+"News-Dividend-Hoder-Address" = "节点持币地址";
+"News-Dividend-Node-Name" = "节点名称";
+"News-Dividend-Node-Address" = "BOE绑定地址";
+"News-Dividend-Current-Ranking" = "当前排名";
+"News-Dividend-Current-Votes" = "当前票数";
+"News-Dividend-Total-Votes" = "社区总票数";
+"News-Dividend-FenHong-Precent" = "分红比例";
+"News-Dividend-See-Voting-Detail" = "查看投票详情";
+"News-Dividend-Become-Node" = "如何成为节点";
+"News-Dividend-Vote-Detail" = "节点投票详情";
+"News-Dividend-Send-Dividend" = "分红设置";
+"News-Dividend-Reward-Payment" = "分红预存";
+"News-Dividend-Select-Range-Dividend" = "选择分红范围";
+"News-Dividend-Reward-Payment-Amount" = "预存分红金额";
+"News-Dividend-Reward-Input-Amount" = "输入分红金额";
+"News-Dividend-Reward-Amount-Empty" = "预存金额不能为空";
+"News-Dividend-Set-Reward-Precent" = "设置分红比例";
+"News-Dividend-Reset-7-Days" = "每7天可以重置一次";
+"News-Dividend-Reward-Total-HPB" = "预存分红金额，共 %@ HPB";
+"News-Dividend-Reward-Detail" = "分红详情";
+"News-Dividend-Voting-Credits" = "投票积分";
+"News-Dividend-NoData-Export" = "没有可导出的数据";
+"News-Dividend-Voting-Introduction" = "投票积分简介";
+"News-Dividend-Reward-percentage-0-100" = "分红比列范围为0~100";
+
+"News-Dividend-Total-Voters-Title" = "总人数";
+"News-Dividend-Total-Tickets-Title" = "总票数";
+"News-Dividend-Export-Data-Title" = "导出数据";
+"News-Dividend-Rankings-Title" = "排名";
+"News-Dividend-Voting-Address-Title" = "投票地址";
+"News-Dividend-Votes-Title" = "票数";
+
+"News-Dividend-Total-Amount-of-Dividends" = "分红总金额";
+"News-Dividend-Balance-Title" = "可用余额";
+"News-Dividend-Dividend/Balance" = "余额占比";
+"News-Dividend-Confirm-Distribute" = "确认发放";
+"News-Dividend-Select" = "选择";
+"News-Dividend-Filter-Votes" = "筛选票数";
+"News-Dividend-Select-All" = "全选";
+
+"News-Dividend-Send-Reward-Amount" = "分红预存金额";
+"News-Dividend-Can-Dividend-Amount" = "已存分红余额: ";
+"News-Dividend-Reward-Title" = "分红";
+"News-Dividend-Set-Precent-Empty-Tip" = "分红比例不能为空";
+
+
+
+"News-Governance-Title" = "链上投票治理";
+
+
+"News-Governance-Voting-Record" =  "投票记录";
+"News-Governance-State-Voting" = "投票中";
+"News-Governance-State-Processed" = "揭晓中";
+"News-Governance-State-Passed" = "已通过";
+"News-Governance-State-Vetoed" = "被否决";
+"News-Governance-State-Invalid" = "已作废";
+"News-Governance-More" = "详情";
+"News-Governance-Time-Left" = "投票倒计时：";
+"News-Governance-Voting-Ends" = "投票截止时间：";
+"News-Governance-Proposal-Details" = "议题详情";
+"News-Governance-Proposal-Start-Time" =  "议题发起时间：";
+"News-Governance-Community-Vote-Number" = "社区投票总数：";
+"News-Governance-Community-Votes-Casted" = "已投票数:";
+"News-Governance-Community-Votes-Available" = "可用票数:";
+"News-Governance-Confirm-Vote" = "确认投票";
+"News-Governance-Proposal-Invalid-Time" = "议题作废时间：";
+"News-Governance-Proposal-Invalid-Reason" = "议题作废原因";
+"News-Governance-Voting-History" = "投票记录";
+"News-Governance-Voting-Rules" = "投票规则";
+"News-Governance-Obsolete-Reason" = "投票总数少于50万票，议题作废";
+"News-Governance-Vote-Placehoder" = "%@票起投,请输入投票数";
+
+"Vote-Confirm-lower-Vote" = "低于最低起投票数";
+
+
+"News-Digital-Signatures-Title" = "数字签名";
+"News-Digital-Signatures-Top-Input-Title" = "请输入要签名的字符串内容";
+"News-Digital-Signatures-Record" = "签名记录";
+"News-Digital-Signatures-rule" = "数字签名规则";
+"News-Digital-Signatures-Sinature-Btn" = "签名";
+"News-Digital-Signatures-Text-Plachoder" =  "请输入您需要签名的字符串内容";
+"News-Digital-Signatures-Text-Empty-Tip" = "签名内容不能为空";
+"News-Digital-Signatures-Confirm" =  "确认签名";
+"News-Digital-Signatures-Copy" = "复制签名内容";
+"News-Digital-Signatures-Detail" = "签名详情";
+"News-Digital-Signatures-Detail-Top" = "字符串内容:";
+"News-Digital-Signatures-Detail-Bottom" = "签名内容：";
+"News-Digital-Signatures-Detail-Delete" =  "删除记录";
+//---------------我的页面-------------------
+//****我的****
+"My-Share-Friend" = "分享HPB Wallet给好友";
+"My-Share-Now" = "立即分享";
+"My-Message-Center" = "消息中心";
+"My-Settings" = "系统设置";
+"My-Help-Center" = "帮助中心";
+"My-Aboutus" = "关于我们";
+"My-Vote" = "竞选投票";
+"My-Mapping" = "主网映射";
+"My-Cold-Wallet" = "冷钱包";
+"gl0-wy-bCF.text" = "交易记录";
+
+//****地址薄****
+"My-Address-List" = "地址薄";
+"AddressBook-AddNew" = "新建联系人";
+"AddressBook-AddNew-Success" = "新建联系人成功";
+"AddressBook-Edit" = "编辑";
+"AddressBook-textView-Placehoder" = "请粘贴或扫码录入HPB主网地址";
+"AddressBook-name-Placehoder" = "请输入名称";
+"AddressBook-delete-record" = "删除记录";
+"AddressBook-iCould-backup" = "云备份";
+"AddressBook-iCould-open" = "已开启";
+"AddressBook-iCould-close" = "已关闭";
+"AddressBook-iCould-tip" = "开启后，数据将安全存储在云端，可随钱包一起恢复";
+"AddressBook-iCould-detail" = "详情";
+"AddressBook-iCould-detail-name" = "名称";
+"AddressBook-iCould-detail-out" = "转出地址";
+"AddressBook-iCould-detail-tip" = "数据安全存储在云端";
+"AddressBook-NO-Contract" = "没有联系人";
+"AddressBook-Name-Empty-Tip" = "名称不能为空";
+"AddressBook-iCould-Faile-Tip" = "云同步失败";
+"AddressBook-iCould-Success-Tip" = "云同步已开启";
+"AddressBook-iCould-detail-close-Tip" = "数据仅存储在本地，";
+"AddressBook-iCould-Backup" = "立即备份";
+"AddressBook-Exist-Tip" = "联系人信息已存在";
+"AddressBook-Emoj-Tip" = "联系人名称不能包含特殊字符";
+
+//****消息中心****
+"Message-Empty" = "您还没有收到任何消息";
+
+//****管理钱包****
+"ManageWallet-Title" = "管理钱包";
+"ManageWallet-Empty" = "您还没有创建钱包！";
+"MessageDeatil-Title" =  "消息详情";
+
+//****************创建钱包****************
+"CreatWallet-Title-Modify" = "新建钱包";
+"CreatWallet-Btn" = "创建钱包";
+"CreatWallet-Name" = "钱包名称";
+"CreatWallet-Name-Placehoder" = "给自己的钱包起个名字，如：数字钱包";
+"CreatWallet-Password-Placehoder" = "设置密码，保护私钥和交易授权";
+"CreatWallet-Password-Title" = "密码";
+"CreatWallet-Failed-generate" = "钱包生成失败！";
+"CreatWallet-Failed-create" = "创建钱包失败！";
+"CreatWallet-Creating" = "创建中";
+"CreatWallet-Creat-Success" = "创建成功";
+"CreatWallet-Name-12wei" = "钱包名称不能超过12个字符";
+
+
+//****************钱包操作****************
+"WalletHandel-Change-Password" = "修改密码";
+"WalletHandel-Export-PK" = "导出私钥";
+"WalletHandel-Export-KS" = "导出keystore";
+"WalletHandel-Delete-Wallet" = "删除钱包";
+"WalletHandel-No-Backup" =  "未备份";
+"WalletHandel-Title" = "钱包详情";
+"WalletHandel-Delete-Tip" = "此操作不可逆，钱包将被永久性删除!";
+"WalletHandel-Deleting" = "删除中···";
+"WalletHandel-Delete-Success" = "删除成功";
+"WalletHandel-Password-Error" = "输入密码错误";
+"WalletHandel-Modify-Success" = "修改成功";
+"WalletHandel-Modify-Faile" = "修改失败";
+"WalletHandel-InCollect-PK" = "请检查私钥是否正确";
+"WalletHandel-Import-Faile" = "导入失败";
+"WalletHandel-Import-Success" = "导入成功";
+"WalletHandel-Exist-Wallet" = "当前钱包已存在";
+"WalletHandel-Keystore-Creat-Faile" = "Keystore文件创建失败";
+"WalletHandel-New-Wallet" = "新钱包";
+"WalletHandel-Keystore-Faile" = "Keystore文件错误";
+"WalletHandel-Delete-ColdWallet-Tip" = "确认删除冷钱包？";
+
+//****修改密码****
+"ChangePassword-New"     =  "新密码";
+"ChangePassword-Current" =  "当前密码";
+"ChangePassword-Input-Old" = "请输入原密码";
+"ChangePassword-Current-Empty" = "当前密码不能为空";
+"ChangePassword-New-Empty" = "新密码不能为空";
+"ChangePassword-Finish" = "完成";
+"ChangePassword-Cant-Same" = "新密码不能原密码相同";
+"ChangePassword-Re-Enter" = "重复密码";
+"ChangePassword-Change-Success" = "密码修改成功";
+
+//****导出私钥****
+"ExportPrivateKey-Prompt" = "密码用于保护私钥和交易授权，强度非常重要\n钱包不储存密码，也无法帮您找回，请务必牢记";
+"ExportPrivateKey-Copy" = "复制私钥";
+"ExportPrivateKey-Prompt-New" = "安全警告：私钥未经加密，导出存在风险，建议使用助记词和 Keystore 进行备份。";
+
+//****导出Kstore****
+"ExportKstore-File" = "Keystore文件";
+"ShowKstore-Show" = "显示二维码";
+"ShowKstore-Hide" = "隐藏二维码";
+"6hC-og-8dL.text" = "密码保险箱保存";
+"Byn-aB-mmj.text" = "请复制粘贴Keystoke文件到安全、离线的地方保存。切勿保存至邮箱、记事本、网盘、聊天工具等，非常危险";
+"Fm1-tC-Aar.text" = "如需在线保存，则建议使用安全等级更高的\n1 Password等密码保管软件保存Keystore。";
+"Uy0-pw-vtr.normalTitle" = "复制Keystore";
+"V8h-Lb-Ynk.text" = "请勿通过网络工具传输Keystore文件，一旦被黑客获取将造成不可挽回的资产损失。建议离线设备通过扫二维码方式传输。";
+"izc-7f-1Ok.text" = "请勿使用网络传输";
+"xuy-Jd-cOI.text" = "离线保存";
+"06I-z8-Gpk.text" = "请在确保四周无人及摄像头的情况下使用。二维码一旦被他人获取将造成不可挽回的资产损失。";
+"3jc-ry-X1s.text" = "二维码禁止保存、截图、以及拍照。仅供用户在安全环境下直接扫描来方便的导入钱包。";
+"4kj-t9-zyn.text" = "仅供直接扫描";
+"blW-j5-398.normalTitle" = "显示二维码";
+"xIZ-x4-IBr.text" = "在安全环境下使用";
+
+
+
+//****导入钱包****
+"ImportWallet-Address-inValid" = "地址不合法";
+"ImportWallet-Import" = "导入钱包";
+"ImportWallet-PK-Title" = "私钥";
+"ImportWallet-Keystore-Title" = "Keystore";
+"ImportWallet-Mnemonic-Title" = "助记词";
+"ImportWallet-ColdWallet-Title" = "冷钱包";
+"ImportWallet-What-PK" = "什么是私钥";
+"ImportWallet-What-Keystore" = "什么是Keystore";
+"ImportWallet-What-Mnemonic" = "什么是助记词";
+"ImportWallet-What-ColdWallet" = "如何使用冷钱包";
+"ImportWallet-Cold-Placehoder" = "请输入需要导入的冷钱包地址";
+"ImportWallet-What-Cold-attention" = "注意事项:";
+"ImportWallet-What-Cold-TopTip" = "1. 大额资产建议使用冷钱包 \n2.导入冷钱包仅可广播交易信息或观察账户内容，不能签名或发起交易";
+"ImportWallet-PK-Placehoder" = "明文私钥";
+"ImportWallet-Mnemonic-Placehoder" = "助记词，按空格分割";
+"ImportWallet-Mnemonic-Empty" = "助记词不能为空";
+"ImportWallet-Mnemonic-Top-Title" = "请输入您的助记词";
+"ImportWallet-Keystore-Empty" = "Keystore不能为空";
+"ImportWallet-PK-Empty" = "私钥不能为空";
+"ImportWallet-Mnemonic-error" = "助记词格式错误！";
+"ImportWallet-Btn-Title" = "确认";
+"ImportKstore-Top-Tips" = "直接复制粘贴HPB官方钱包 Keystore 文件内容到输入框。或者通过生成 Keystore 内容的二维码，扫描录入。";
+"ImportKstore-Placehoder" = "Keystore文本内容";
+
+//****备份助记词****
+"Mnemonics-backup-Btn" = "立即备份钱包";
+"Mnemonics-Creat-Success" = "创建成功";
+"Mnemonics-Backup" = "备份助记词";
+"BackupMnemonics-Delete-tips" = "你备份的助记词顺序验证正确，是否从HPB Wallet移除该助记词？";
+"BackupMnemonics-Disclaimer-content" ="请确保已备份钱包至安全的地方，HPB Wallet不承担任何钱包丢失，被盗，忘记密码等产生的资产损失";
+"Mnemonics-Disclaimer" = "免责声明";
+"Mnemonics-Remove-Failed" = "本地助记词移除失败！";
+"Mnemonics-Format-Error" = "你备份的助记词格式填写有误，请校验后重新选择!";
+"Mnemonics-Tutorial" = "详细教程";
+"Mnemonics-No-Backup-Btn" = "暂不备份，进入钱包";
+
+//****提示备份助记词****
+"Mnemonics-Tip-Backup" =  "请离线备份助记词";
+"TipBackUpView-tips" = "建议用纸抄下来，保存到安全的地方";
+"Mnemonics-Backup-Now" = "知道了，现在备份";
+"Mnemonics-Backup-mnemonic" = "备份助记词：资产重要凭证，可助您恢复钱包";
+"Mnemonics-Backup-keystore-Tip" = "备份Keystore文件：交易密码保护的私钥件，可助您恢复钱包";
+
+
+//****帮助中心****
+"HelpCenter-FAQ" = "常见问题";
+"HelpCenter-Contact" = "联系我们";
+"HelpCenter-Feedback" = "意见反馈";
+
+//****语言选择*千分位****
+"LanguageUtil-Title" = "多语言";
+"LanguageUtil-Chinese" = "简体中文";
+"NumberStyle-Example" = "示例";
+"NumberStyle-Style" = "数值样式";
+"NumberStyle-Cell-China" = "“,”标示千分位，“.”标示小数点";
+"NumberStyle-Cell-germy" = "“.”标示千分位，“,”标示小数点";
+
+"SecureLogin-Title" = "安全登录";
+"SecureLogin-FaceID" = "启用Face ID登录";
+"SecureLogin-TouchID" = "启用Touch ID登录";
+"SecureLogin-Password" = "启用密码登录";
+"SecureLogin-Open" = "安全登录已开启";
+
+"Floating-Action-Button-Open" = "悬浮按钮";
+"Floating-Action-Button-Close" = "关闭悬浮按钮";
+
+"My-Currency-Change" = "货币切换";
+
+//****全部账单****
+"TransferRecord-Records" = "交易记录";
+"TransferRecord-Out" =  "转出";
+"TransferRecord-In" =  "转入";
+"TransferRecord-Empty-Tip" = "交易记录为空";
+"TransferRecord-Current-Month" = "当月";
+
+//****交易详情****
+"TransferDetail-Transaction-Title" = "交易详情";
+"TransferDetail-Sender" = "发款方";
+"TransferDetail-Receiver" = "收款方";
+"TransferDetail-Fees" = "交易费用";
+"TransferDetail-ID" = "交易号";
+"TransferDetail-Block" = "区块号";
+"TransferDetail-Time" = "交易时间";
+"TransferDetail-Copy" = "点击复制URL";
+"TransferDetail-Transaction-Success" = "交易成功";
+
+
+//****关于我们****
+"AboutUs-Version-detection" =  "版本检测";
+"AboutUs-Terms"             =  "使用协议";
+"AboutUs-Current-Version"   = "当前版本:";
+"AboutUs-Latest-Version"    = "当前已是最新版本";
+"AboutUs-Wallet-Introduce"  = "HPB Wallet是一款移动DApp, 专用于连接HPB主链，为用户参与节点投票和储存数字资产提供安全放心且简便易用的解决方案。";
+
+
+//****意见反馈****
+"Feedback-Questions" = "问题";
+"Feedback-Suggestion" = "建议";
+"Feedback-Others" = "其他";
+"Feedback-Content-Placehoder" = "请输入内容";
+"Feedback-Title-Tip" = "标题不能为空";
+"Feedback-Content-Tip" = "内容不能为空";
+"Feedback-Contract-Tip" = "联系信息不能为空";
+"Feedback-Success-Tip" = "您的建议已提交，谢谢！";
+"Feedback-Title-Placehoder" = "请输入标题";
+"Feedback-Max-Content" = "最大不能超过100个字符";
+
+//****映射****
+
+"Mapping-import" = "开始导入";
+"MappingList-Title" = "映射列表";
+"MappingList-Empty-tip" = "您还没有映射钱包";
+"MappingList-Search" = " 查询";
+"MappingList-Map" = " 映射";
+"MappingRecord-Title" = "映射记录";
+"MappingRecord-Empty-tip" = "映射记录为空";
+"TransferDetail-Mapping-Success" = "映射成功";
+"ImportWallet-Mapping-Exist-Tip" = "当前钱包已存在，是否加入到映射列表";
+"Mapping-NO-Wallet-Tip" = "您还没有导入映射钱包，请先导入。";
+"Mapping-List-Faile" = "获取列表失败！";
+
+//********投票********
+
+"Vote-Note-Vote" = "HPB节点投票";
+"Vote-Note-Rule" = "查看投票规则";
+"Vote-Query" = "查询";
+"Vote-Query-Keyword-Tip" = "搜索内容不能为空";
+"Vote-My-Vote" = "我的投票";
+"Vote-Select-Default" = "默认";
+"Vote-Select-jigou" = "机构";
+"Vote-Select-Company" = "公司";
+"Vote-Select-Personal" = "个人";
+"Vote-Vote-Btn" = "投票";
+"Vote-Rank-Title" = "排名";
+"Vote-Name-Title"  = "名称";
+"Vote-Number-Title" = "票数";
+"Vote-Vote-Title" = "投票";
+"Vote-Query-Title" = "查询结果";
+"Vote-Detail-CurrentVote" = "当前票数";
+"Vote-Detail-Location" = "位置";
+"Vote-Detail-Website" = "官网";
+"Vote-Voting-hud" = "投票中";
+"Vote-Confirm-Note" = "支持节点";
+"Vote-Confirm-Nnumer" = "投票数量";
+"Vote-Confirm-Password" = "输入密码";
+"Vote-Confirm-Confirm" = "确认投票";
+"Vote-Confirm-Cancel-Number" = "撤票数量";
+
+"Vote-Confirm-Max-Number-Vote" = "最多可投%@票";
+"Vote-Confirm-Max-Number-Cancel" = "最多可撤%@票";
+"Vote-Confirm-Max-Piao" = "票";
+"Vote-Confirm-Numeber-Empty" = "投票数量不能为0";
+"Vote-Confirm-Numeber-Empty-Cancel" = "撤票数量不能为0";
+"Vote-Confirm-beyound" = "超过最大投票数量";
+"Vote-Confirm-beyound-Cancel" = "超过最大撤票数量";
+"Vote-Confirm-Password-tip" = "输入密码不能为空";
+"Vote-Confirm-Receive" = "获取中";
+"Vote-Confirm-My-Vote" = "我的投票";
+"Vote-Had-Vote-Tip" = "已投票";
+"Vote-Success-Tip" = "投票成功";
+"Vote-Success-Cancel-Tip" = "撤票成功";
+"Vote-Faile-Tip" = "投票失败";
+"Vote-Faile-Cancel-Tip" = "撤票失败";
+"Vote-My-Balance" = "可投票数";
+"Vote-My-Had-Vote" = "已投票数";
+"Vote-My-Vote-History" = "投票历史记录";
+"Vote-My-Vote-Empty" = "暂无投票记录";
+"Vote-My-Vote-Current" = "当前票数";
+"Vote-My-Vote-My" = "我的票数";
+"Vote-My-Vote-Date" = "投票日期";
+"Vote-My-Vote-Cancel" = "撤销投票";
+"Vote-My-Vote-Had-Cancel" = "已撤销";
+"Vote-My-Vote-Had-Vote" = "已投票";
+"Vote-My-Vote-Canceling" = "撤销中";
+"Vote-My-Vote-Cancel-Faile" = "撤销失败";
+"Vote-Vote-Waiting-Text" = "投票活动尚未开始";
+"Vote-Vote-No-Fee" = "手续费不足";
+"Vote-Search-Empty" = "搜索记录为空";
+
+"Vote-Update-Hold-Address" = " 更新持币地址";
+"Vote-Update-To-Auth" = " 去授权";
+"Vote-Update-Address-Password-Error" = "输入密码错误";
+"Vote-Update-Address-Address-Empty" = "地址不能为空";
+"Vote-Update-Address-Password-Empty" = "密码不能为空";
+"Vote-Update-Address-Incorrect-Address-Format" = "地址格式错误";
+"Vote-Authorized-Success-Tip" = "授权成功";
+"Vote-Authorized-Faile-Tip" = "授权失败";
+"Vote-Authorized-Modify-Success" = "修改成功";
+"Vote-Authorized-Modify-Faile" = "修改失败";
+"Vote-Modify-Address-View-Top" = "请输入新的持币地址";
+"Vote-Modify-Address-View-Confirm-Btn" = "确认修改";
+"Vote-Modify-Address-Same" = "修改地址不能相同";
+"Vote-Authorized-Address-Alert-Tip" = "请使用 %@ 地址进入 %@ 节点详情页面确认授权";
+"Vote-Authorized-Address-Title-Tip" = "等待持币地址授权";

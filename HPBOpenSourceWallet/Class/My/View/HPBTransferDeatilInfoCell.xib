@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="104" id="b47-nD-aKe" customClass="HPBTransferDeatilInfoCell" customModule="HPBWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="104"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="b47-nD-aKe" id="J5T-Y7-4Xc">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="103.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收款方" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gj4-gY-G4J">
+                        <rect key="frame" x="20" y="16" width="43" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.72941176470588232" green="0.74117647058823533" blue="0.75686274509803919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="weourowuro9357kdhkh349khetkghowue092830j" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyv-Da-iSP">
+                        <rect key="frame" x="20" y="39" width="305" height="64.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGS-lt-RFJ">
+                        <rect key="frame" x="68" y="16" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="2YL-de-J6j"/>
+                            <constraint firstAttribute="width" constant="20" id="rtv-b3-HYR"/>
+                        </constraints>
+                        <state key="normal" image="my_addressBook_copy"/>
+                        <connections>
+                            <action selector="copyBtnClick:" destination="b47-nD-aKe" eventType="touchUpInside" id="ufe-fE-NXn"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="my_transfer_detail_row" translatesAutoresizingMaskIntoConstraints="NO" id="ewW-ur-p4i">
+                        <rect key="frame" x="346" y="64" width="7" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="7" id="8qH-Bd-fIZ"/>
+                            <constraint firstAttribute="height" constant="15" id="sNq-GW-CXO"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="IGS-lt-RFJ" firstAttribute="leading" secondItem="gj4-gY-G4J" secondAttribute="trailing" constant="5" id="5cO-6Q-yxG"/>
+                    <constraint firstItem="ewW-ur-p4i" firstAttribute="centerY" secondItem="cyv-Da-iSP" secondAttribute="centerY" id="9P3-rG-27K"/>
+                    <constraint firstItem="cyv-Da-iSP" firstAttribute="top" secondItem="gj4-gY-G4J" secondAttribute="bottom" constant="6" id="D4B-BS-WSs"/>
+                    <constraint firstItem="gj4-gY-G4J" firstAttribute="leading" secondItem="J5T-Y7-4Xc" secondAttribute="leading" constant="20" id="GCW-ZK-JTN"/>
+                    <constraint firstAttribute="bottom" secondItem="cyv-Da-iSP" secondAttribute="bottom" id="Tyn-o1-Fo8"/>
+                    <constraint firstItem="IGS-lt-RFJ" firstAttribute="top" secondItem="gj4-gY-G4J" secondAttribute="top" id="UAx-Th-loh"/>
+                    <constraint firstItem="cyv-Da-iSP" firstAttribute="leading" secondItem="J5T-Y7-4Xc" secondAttribute="leading" constant="20" id="cql-ON-Og3"/>
+                    <constraint firstItem="gj4-gY-G4J" firstAttribute="top" secondItem="J5T-Y7-4Xc" secondAttribute="top" constant="16" id="ldO-oU-a6R"/>
+                    <constraint firstAttribute="trailing" secondItem="cyv-Da-iSP" secondAttribute="trailing" constant="50" id="rXN-7X-Nmm"/>
+                    <constraint firstAttribute="trailing" secondItem="ewW-ur-p4i" secondAttribute="trailing" constant="22" id="xOM-Wh-TfK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentLabel" destination="cyv-Da-iSP" id="4he-mI-7uo"/>
+                <outlet property="rightImage" destination="ewW-ur-p4i" id="W4a-Tb-ZBT"/>
+                <outlet property="titleLabel" destination="gj4-gY-G4J" id="dcQ-Zo-eJD"/>
+                <outlet property="trailConstraint" destination="rXN-7X-Nmm" id="3p3-ls-e4C"/>
+            </connections>
+            <point key="canvasLocation" x="-428" y="-173.61319340329837"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="my_addressBook_copy" width="16" height="16"/>
+        <image name="my_transfer_detail_row" width="7" height="15"/>
+    </resources>
+</document>

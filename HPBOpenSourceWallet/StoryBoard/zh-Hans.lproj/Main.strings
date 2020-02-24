@@ -1,0 +1,104 @@
+
+
+
+/* Class = "UITextField"; placeholder = "扫码或输入"; ObjectID = "8S4-nd-LlO"; */
+"8S4-nd-LlO.placeholder" = "扫码或输入";
+
+/* Class = "UILabel"; text = "确认钱包助记词"; ObjectID = "DV6-qK-IIG"; */
+"DV6-qK-IIG.text" = "确认你的钱包助记词";
+
+
+
+/* Class = "UIButton"; normalTitle = "   导入钱包"; ObjectID = "ITj-uQ-0pp"; */
+"ITj-uQ-0pp.normalTitle" = "   导入钱包";
+
+//备份助记词
+"OBg-kj-Ieu.text" = "备份钱包：导出「助记词」并抄写到安全的地方，千万不要保存到网络上。然后尝试转入、转出小额资产开始使用。";
+
+
+/* Class = "UIButton"; normalTitle = "复制收款地址"; ObjectID = "Q7W-2P-pIx"; */
+"Q7W-2P-pIx.normalTitle" = "复制地址";
+
+
+
+
+/* Class = "UIButton"; normalTitle = "查看详细教程"; ObjectID = "ULe-rx-oj3"; */
+"ULe-rx-oj3.normalTitle" = "查看详细教程";
+
+
+
+/* Class = "UITextField"; placeholder = "QQ/手机/邮箱"; ObjectID = "W3t-mz-uTY"; */
+"W3t-mz-uTY.placeholder" = "QQ/手机/邮箱";
+
+
+/* Class = "UILabel"; text = "HPB"; ObjectID = "Zvz-Do-P3u"; */
+"Zvz-Do-P3u.text" = "HPB";
+
+/* Class = "UILabel"; text = "联系方式"; ObjectID = "ahe-aS-4Dg"; */
+"ahe-aS-4Dg.text" = "联系方式";
+
+/* Class = "UILabel"; text = "最后一步：立即备份你的钱包！"; ObjectID = "bYw-MW-bpE"; */
+"bYw-MW-bpE.text" = "创建成功，立即备份你的钱包！";
+
+/* Class = "UILabel"; text = "地址"; ObjectID = "byX-mD-TXe"; */
+"byX-mD-TXe.text" = "收款地址";
+
+
+
+
+/* Class = "UILabel"; text = "0"; ObjectID = "jyq-bE-TTT"; */
+"jyq-bE-TTT.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "   创建钱包"; ObjectID = "k5k-eH-8WI"; */
+"k5k-eH-8WI.normalTitle" = "   创建钱包";
+
+
+"pM2-UB-JvS.text" = "币种";
+
+/* Class = "UILabel"; text = "分类"; ObjectID = "q23-Bt-hAH"; */
+"q23-Bt-hAH.text" = "分类";
+
+"qge-X7-fsh.text" = "抄写下你的助记词";
+
+/* Class = "UILabel"; text = "标题"; ObjectID = "rzq-gc-wLb"; */
+"rzq-gc-wLb.text" = "标题";
+
+"t9v-Wk-nQW.text" = "请按顺序点击助记词，已确认你的备份助记词正确。";
+
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "xU1-d3-rJV"; */
+"xU1-d3-rJV.normalTitle" = "提交";
+
+"xcA-N4-R4C.text" = "助记词用于恢复钱包或重置钱包密码，将它准确的抄写到纸上，并存放在只有你知道的安全的地方。";
+
+/* Class = "UILabel"; text = "多语言"; ObjectID = "zW5-Ih-JTG"; */
+"zW5-Ih-JTG.text" = "多语言";
+
+
+/* Class = "UIButton"; normalTitle = "已有映射钱包？点击直接进入钱包列表"; ObjectID = "S7x-oK-HeD"; */
+"S7x-oK-HeD.normalTitle" = "映射钱包列表";
+
+
+"dXL-t1-9Vq.text" = "转出金额";
+
+
+"g8z-bV-uUd.text" = "提示：转账前请务必确认地址及币种信息无误，一旦转出不可恢复！";
+
+/* Class = "UILabel"; text = "转出地址"; ObjectID = "xdS-Dx-FPf"; */
+"xdS-Dx-FPf.text" = "转出地址";
+
+
+/* Class = "UILabel"; text = "转入地址"; ObjectID = "Pbl-cX-BaO"; */
+"Pbl-cX-BaO.text" = "转入地址";
+
+"YQj-J3-V3b.placeholder" = "输入转出金额";
+
+"swJ-zW-3gf.normalTitle" = "全部转出";
+
+"kBI-lc-vb7.text" = "正在获取";
+
+
+
+
+
+

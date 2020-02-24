@@ -1,0 +1,6 @@
+framework module AESCrypto {
+  umbrella header "AESCrypto.h"
+
+  export *
+  module * { export * }
+}

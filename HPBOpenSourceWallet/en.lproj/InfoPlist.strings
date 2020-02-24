@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  HPBWallet
+
+  Created by liuxiaoliang on 2019/5/7.
+  Copyright © 2019 Zhaoxi Network. All rights reserved.
+*/
+
+NSCalendarsUsageDescription = "Need to access the calendar";
+NSCameraUsageDescription = "We need to access the camera to scan the QR code of the account to get account information";
+NSContactsUsageDescription = "Access to the address book";
+NSFaceIDUsageDescription =  "We need to get your FaceID to unlock the app";
+NSPhotoLibraryAddUsageDescription = "We need to access the album to get the account QR code to get the address";
+NSPhotoLibraryUsageDescription = "We need to save your QR code image to the album so that you can use it when you receive Token later";

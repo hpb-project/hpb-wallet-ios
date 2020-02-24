@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="lvc-6s-Hp6" customClass="HPBShareReceiptView" customModule="HPBWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="550"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_receipt_share_back" translatesAutoresizingMaskIntoConstraints="NO" id="leb-lQ-pO5">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="550"/>
+                </imageView>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XOf-mj-6mx">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="550"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0x1112qqwwffssfsfsfsfsfsfsf322223333" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qm8-ZK-obg">
+                            <rect key="frame" x="37" y="343.5" width="300" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HPB Wallet收款码" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="JET-JK-gk9">
+                            <rect key="frame" x="20" y="35" width="335" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="uKr-qp-lmc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Agh-CP-g2d">
+                            <rect key="frame" x="102.5" y="115" width="170" height="170"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6jY-RS-KTK">
+                                    <rect key="frame" x="5" y="5" width="160" height="160"/>
+                                </imageView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_hpb_logo_white_back" translatesAutoresizingMaskIntoConstraints="NO" id="EKt-ee-zFf">
+                                    <rect key="frame" x="69" y="69" width="32" height="32"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="32" id="NaK-M9-Lsu"/>
+                                        <constraint firstAttribute="height" constant="32" id="eoD-5S-05v"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="6jY-RS-KTK" secondAttribute="trailing" constant="5" id="52u-mP-G66"/>
+                                <constraint firstItem="EKt-ee-zFf" firstAttribute="centerX" secondItem="Agh-CP-g2d" secondAttribute="centerX" id="92y-ia-vqj"/>
+                                <constraint firstAttribute="width" constant="170" id="DtS-Hh-R3S"/>
+                                <constraint firstAttribute="bottom" secondItem="6jY-RS-KTK" secondAttribute="bottom" constant="5" id="OdW-kv-m81"/>
+                                <constraint firstItem="6jY-RS-KTK" firstAttribute="top" secondItem="Agh-CP-g2d" secondAttribute="top" constant="5" id="WDG-nk-401"/>
+                                <constraint firstItem="6jY-RS-KTK" firstAttribute="leading" secondItem="Agh-CP-g2d" secondAttribute="leading" constant="5" id="bVj-uB-C27"/>
+                                <constraint firstItem="EKt-ee-zFf" firstAttribute="centerY" secondItem="Agh-CP-g2d" secondAttribute="centerY" id="dzd-oM-Shw"/>
+                                <constraint firstAttribute="height" constant="170" id="y8w-nX-ID2"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HPB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmL-gf-xHY">
+                            <rect key="frame" x="166.5" y="301" width="42.5" height="26.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="qm8-ZK-obg" firstAttribute="leading" secondItem="XOf-mj-6mx" secondAttribute="leading" constant="37" id="0VX-ng-kqv"/>
+                        <constraint firstItem="Agh-CP-g2d" firstAttribute="centerX" secondItem="XOf-mj-6mx" secondAttribute="centerX" id="1H7-fq-atU"/>
+                        <constraint firstItem="qm8-ZK-obg" firstAttribute="top" secondItem="bmL-gf-xHY" secondAttribute="bottom" constant="16" id="EBl-zO-FAJ"/>
+                        <constraint firstItem="JET-JK-gk9" firstAttribute="leading" secondItem="XOf-mj-6mx" secondAttribute="leading" constant="20" id="Gz4-Yz-pjN"/>
+                        <constraint firstItem="JET-JK-gk9" firstAttribute="top" secondItem="XOf-mj-6mx" secondAttribute="top" constant="35" id="P5o-kZ-wfS"/>
+                        <constraint firstItem="JET-JK-gk9" firstAttribute="centerX" secondItem="XOf-mj-6mx" secondAttribute="centerX" id="VN3-Ht-pGu"/>
+                        <constraint firstItem="bmL-gf-xHY" firstAttribute="top" secondItem="Agh-CP-g2d" secondAttribute="bottom" constant="16" id="jhw-lY-IEr"/>
+                        <constraint firstItem="Agh-CP-g2d" firstAttribute="top" secondItem="JET-JK-gk9" secondAttribute="bottom" constant="55" id="keq-9f-SMj"/>
+                        <constraint firstAttribute="trailing" secondItem="qm8-ZK-obg" secondAttribute="trailing" constant="38" id="lgG-fp-a72"/>
+                        <constraint firstItem="bmL-gf-xHY" firstAttribute="centerX" secondItem="XOf-mj-6mx" secondAttribute="centerX" id="pBB-4R-Ovn"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="6"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="XOf-mj-6mx" firstAttribute="top" secondItem="lvc-6s-Hp6" secondAttribute="top" id="7np-ZQ-O53"/>
+                <constraint firstItem="XOf-mj-6mx" firstAttribute="leading" secondItem="lvc-6s-Hp6" secondAttribute="leading" id="Bg5-GI-RlX"/>
+                <constraint firstItem="leb-lQ-pO5" firstAttribute="top" secondItem="lvc-6s-Hp6" secondAttribute="top" id="EGb-2J-drZ"/>
+                <constraint firstItem="XOf-mj-6mx" firstAttribute="centerX" secondItem="lvc-6s-Hp6" secondAttribute="centerX" id="NGb-tV-DbE"/>
+                <constraint firstAttribute="bottom" secondItem="XOf-mj-6mx" secondAttribute="bottom" id="U8J-36-tL0"/>
+                <constraint firstItem="leb-lQ-pO5" firstAttribute="leading" secondItem="lvc-6s-Hp6" secondAttribute="leading" id="b6E-j9-jcS"/>
+                <constraint firstAttribute="trailing" secondItem="leb-lQ-pO5" secondAttribute="trailing" id="n1j-1u-4Oh"/>
+                <constraint firstAttribute="bottom" secondItem="leb-lQ-pO5" secondAttribute="bottom" id="wCE-lL-mBd"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addressLabel" destination="qm8-ZK-obg" id="DEq-Td-gmn"/>
+                <outlet property="centerView" destination="XOf-mj-6mx" id="QfK-ae-9b2"/>
+                <outlet property="codeImage" destination="6jY-RS-KTK" id="Xoa-Zs-nL4"/>
+                <outlet property="topTitle" destination="JET-JK-gk9" id="uxg-f2-oMH"/>
+            </connections>
+            <point key="canvasLocation" x="-1706" y="195"/>
+        </view>
+        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="yAc-A6-CNr">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+        </imageView>
+    </objects>
+    <resources>
+        <image name="main_hpb_logo_white_back" width="32" height="32"/>
+        <image name="main_receipt_share_back" width="1125" height="1650"/>
+    </resources>
+</document>

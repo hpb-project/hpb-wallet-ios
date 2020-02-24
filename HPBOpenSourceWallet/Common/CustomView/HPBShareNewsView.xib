@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HPBShareNewsView" customModule="HPBWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="635"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="common_share_news_top" translatesAutoresizingMaskIntoConstraints="NO" id="2TA-QH-zgo">
+                    <rect key="frame" x="0.0" y="0.0" width="354" height="160.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="2TA-QH-zgo" secondAttribute="height" multiplier="375:170" id="OJb-eB-uv5"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="common_share_news_title_en" translatesAutoresizingMaskIntoConstraints="NO" id="yLU-oT-8oC">
+                    <rect key="frame" x="87" y="75" width="180" height="42.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="yLU-oT-8oC" secondAttribute="height" multiplier="132:31" id="MIG-WC-U0u"/>
+                        <constraint firstAttribute="width" constant="180" id="rOf-0g-bUa"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2018年11月20日 18:23:46" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gak-n5-Cce">
+                    <rect key="frame" x="27" y="185.5" width="145" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="hwg-Al-kjV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                    <color key="textColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDk-0e-nVn">
+                    <rect key="frame" x="27" y="213.5" width="299" height="229.5"/>
+                    <string key="text">LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ks4-kk-rM9">
+                    <rect key="frame" x="0.0" y="543" width="354" height="92"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HPB Wallet" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FCc-MH-sTb">
+                            <rect key="frame" x="89" y="27" width="85" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="fm3-pZ-QoW"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                            <color key="textColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qwR-eh-OGW">
+                            <rect key="frame" x="251" y="10" width="78" height="72"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="qwR-eh-OGW" secondAttribute="height" multiplier="13:12" id="AHJ-Np-1yH"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="common_share_news_logo" translatesAutoresizingMaskIntoConstraints="NO" id="njF-AX-EZC">
+                            <rect key="frame" x="26" y="18.5" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="njF-AX-EZC" secondAttribute="height" multiplier="1:1" id="I2p-b0-eDT"/>
+                                <constraint firstAttribute="width" constant="55" id="q8a-31-yI1"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="来自HPB Wallet APP分享" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nNL-Xp-3fL">
+                            <rect key="frame" x="89" y="53" width="142" height="14.5"/>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                            <color key="textColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.97647058823529409" green="0.98039215686274506" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="njF-AX-EZC" firstAttribute="centerY" secondItem="Ks4-kk-rM9" secondAttribute="centerY" id="6bl-hX-xQb"/>
+                        <constraint firstItem="nNL-Xp-3fL" firstAttribute="leading" secondItem="FCc-MH-sTb" secondAttribute="leading" id="Aay-kX-IxX"/>
+                        <constraint firstItem="FCc-MH-sTb" firstAttribute="leading" secondItem="njF-AX-EZC" secondAttribute="trailing" constant="8" id="SAb-y1-YTi"/>
+                        <constraint firstItem="FCc-MH-sTb" firstAttribute="top" secondItem="Ks4-kk-rM9" secondAttribute="top" constant="27" id="VBr-4Y-TAE"/>
+                        <constraint firstItem="qwR-eh-OGW" firstAttribute="leading" secondItem="nNL-Xp-3fL" secondAttribute="trailing" constant="20" id="fy9-3x-Udi"/>
+                        <constraint firstAttribute="trailing" secondItem="qwR-eh-OGW" secondAttribute="trailing" constant="25" id="gmN-2m-9Y7"/>
+                        <constraint firstAttribute="height" constant="92" id="muJ-ft-pyt"/>
+                        <constraint firstItem="qwR-eh-OGW" firstAttribute="top" secondItem="Ks4-kk-rM9" secondAttribute="top" constant="10" id="nTj-Bs-qdL"/>
+                        <constraint firstAttribute="bottom" secondItem="qwR-eh-OGW" secondAttribute="bottom" constant="10" id="nZe-mJ-hbu"/>
+                        <constraint firstItem="nNL-Xp-3fL" firstAttribute="top" secondItem="FCc-MH-sTb" secondAttribute="bottom" constant="5" id="sgX-cn-5Ha"/>
+                        <constraint firstItem="njF-AX-EZC" firstAttribute="leading" secondItem="Ks4-kk-rM9" secondAttribute="leading" constant="26" id="vI4-qv-73n"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="2TA-QH-zgo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3pL-4U-c1u"/>
+                <constraint firstAttribute="trailing" secondItem="pDk-0e-nVn" secondAttribute="trailing" constant="28" id="53w-4a-pbQ"/>
+                <constraint firstItem="pDk-0e-nVn" firstAttribute="leading" secondItem="gak-n5-Cce" secondAttribute="leading" id="5a9-ne-mia"/>
+                <constraint firstItem="yLU-oT-8oC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="75" id="7T8-xt-92T"/>
+                <constraint firstItem="gak-n5-Cce" firstAttribute="top" secondItem="2TA-QH-zgo" secondAttribute="bottom" constant="25" id="8PU-36-JJF"/>
+                <constraint firstAttribute="trailing" secondItem="2TA-QH-zgo" secondAttribute="trailing" id="9lD-0G-fNk"/>
+                <constraint firstItem="yLU-oT-8oC" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="DWx-sp-4qc"/>
+                <constraint firstItem="Ks4-kk-rM9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="StC-Dg-uKg"/>
+                <constraint firstAttribute="bottom" secondItem="Ks4-kk-rM9" secondAttribute="bottom" id="bWQ-FO-igu"/>
+                <constraint firstItem="pDk-0e-nVn" firstAttribute="top" secondItem="gak-n5-Cce" secondAttribute="bottom" constant="13" id="dxQ-vS-riL"/>
+                <constraint firstItem="2TA-QH-zgo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gN8-gW-3Jw"/>
+                <constraint firstAttribute="trailing" secondItem="Ks4-kk-rM9" secondAttribute="trailing" id="pKh-Vx-FwG"/>
+                <constraint firstItem="gak-n5-Cce" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="27" id="q8w-id-OQY"/>
+                <constraint firstItem="Ks4-kk-rM9" firstAttribute="top" secondItem="pDk-0e-nVn" secondAttribute="bottom" constant="100" id="rIt-dO-bG0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottomLabel" destination="nNL-Xp-3fL" id="u2F-Um-cyV"/>
+                <outlet property="contentLabel" destination="pDk-0e-nVn" id="BGS-zM-hdP"/>
+                <outlet property="downloadImage" destination="qwR-eh-OGW" id="1tE-oh-cMc"/>
+                <outlet property="timeLabel" destination="gak-n5-Cce" id="uDp-K4-VwY"/>
+                <outlet property="topImage" destination="yLU-oT-8oC" id="aB5-Ac-490"/>
+            </connections>
+            <point key="canvasLocation" x="-685" y="156"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="common_share_news_logo" width="49" height="49"/>
+        <image name="common_share_news_title_en" width="222" height="31"/>
+        <image name="common_share_news_top" width="1125" height="510"/>
+    </resources>
+</document>

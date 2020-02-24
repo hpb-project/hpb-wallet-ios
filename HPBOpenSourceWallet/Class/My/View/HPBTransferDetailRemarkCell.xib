@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="49" id="KGk-i7-Jjw" customClass="HPBTransferDetailRemarkCell" customModule="HPBWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="370" height="48.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P2E-Ih-zLe">
+                        <rect key="frame" x="20" y="11" width="330" height="27.5"/>
+                        <color key="backgroundColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="备注：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHl-KX-nGB">
+                        <rect key="frame" x="31" y="17" width="43" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="43" id="PHE-Hh-rug"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OlF-WU-Lcz">
+                        <rect key="frame" x="74" y="17" width="265" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.098039215690000001" green="0.1019607843" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="OlF-WU-Lcz" firstAttribute="bottom" secondItem="P2E-Ih-zLe" secondAttribute="bottom" constant="-7" id="2E4-5G-bwc"/>
+                    <constraint firstItem="OlF-WU-Lcz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="CHS-eC-yT2"/>
+                    <constraint firstAttribute="trailing" secondItem="OlF-WU-Lcz" secondAttribute="trailing" constant="31" id="E4S-ov-CUB"/>
+                    <constraint firstItem="OlF-WU-Lcz" firstAttribute="leading" secondItem="CHl-KX-nGB" secondAttribute="trailing" id="NNL-tP-oam"/>
+                    <constraint firstItem="P2E-Ih-zLe" firstAttribute="top" secondItem="CHl-KX-nGB" secondAttribute="bottom" constant="-23" id="OlE-T2-QdM"/>
+                    <constraint firstAttribute="bottom" secondItem="OlF-WU-Lcz" secondAttribute="bottom" constant="17" id="Ou7-zD-X31"/>
+                    <constraint firstAttribute="trailing" secondItem="P2E-Ih-zLe" secondAttribute="trailing" constant="20" id="ane-DS-8V1"/>
+                    <constraint firstItem="CHl-KX-nGB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="31" id="k2f-QB-B8E"/>
+                    <constraint firstItem="CHl-KX-nGB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="mPg-Ie-5jn"/>
+                    <constraint firstItem="P2E-Ih-zLe" firstAttribute="leading" secondItem="CHl-KX-nGB" secondAttribute="trailing" constant="-54" id="z6s-Ms-o5f"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentLabel" destination="OlF-WU-Lcz" id="aYZ-Mh-Tgj"/>
+            </connections>
+            <point key="canvasLocation" x="-189" y="41"/>
+        </tableViewCell>
+    </objects>
+</document>

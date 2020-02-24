@@ -1,0 +1,765 @@
+/* 
+  Localizable.strings
+  HPBWallet
+
+  Created by 刘晓亮 on 2018/6/6.
+  Copyright © 2018年 Zhaoxi Network. All rights reserved.
+*/
+
+"TabBar-Main.title" = "Assets";
+"TabBar-News.title" = "Discovery";
+"TabBar-My.title" = "Me";
+
+//---------------公共-------------------
+"Common-Max-Wallet" = "More than the maximum number of wallets";
+"Common-jailbroken-Phone" = "The current mobile phone has been jailbroken. It is extremely unsafe to use jailbroken mobile phone transactions. It is recommended to operate after replacing the mobile phone.";
+"Common-Back—Title" = "Back";
+"Common-Save-Wallet-Faile" =  "Wallet failed to save!";
+"Common-Generate-Wallet-Faile" = "Failed to generate wallet!";
+"Common-Generate-KS-Faile" = "Failed to generate Keystore file";
+"Common-Get-KS-Faile" = "Failed to get Keystore file";
+"Common-File-Read-Faile" = "File reading error!";
+"Common-GetAddress-Faile" = "Failed to get the address!";
+"Common-GetWalletInfo-Faile" = "Failed to get wallet information";
+"Common-Delete-Faile" = "failed to delete";
+"Common-Delete-Kstore-Faile" = "Failed to delete Kstore file";
+"Common-Address-Faile" = "Wrong wallet address!";
+"Common-Update-Faile" = "Update failed!";
+"Common-Loding" = "Loading";
+"Common-Sever-Privacy" = "Service and Privacy Policy";
+"Common-Agree-Privacy" = "I have read and agree ";
+"Common-Recomend-Password" = "At least 8 characters, use a mix of letters, numbers and symbols";
+"Common-Privacy" =  "Privacy Policy";
+"Common-Cancel" = "Cancel";
+"CommonAlert-Export-PrivateKey" = "Anyone who has access to your private key can acquire your assets! Please write it down on paper and secure your private key in a safe location.";
+"CommonAlert-Export-Mnemonic" = "Anyone who have access to your mnemonic phrase can acquire your assets! Please write it down and secure your mnemonic phrase in case of any asset losses.";
+"CommonAlert-Export-Keystore" = "Make sure your QR code is not shared publicly or stolen! Do not save the Keystore file or its corresponding QR code by taking screenshots or photos";
+"Common-Got-it" = "Got it";
+"Common-Copyed" = "Copied";
+"Common-Save" = "Save";
+"Common-Confirm" = "Confirm";
+"Common-Alert-Confirm" = "Ok";
+"Common-Load-faile" = "Data loading failed, please try again!";
+"Common-Reload" = "Reload";
+"Common-Version-Update" = "Version Update";
+"Common-No-Screenshot" = "No Screenshot";
+"Common-Now" = "Just now";
+"Common-Today" = "Today";
+"Common-Yesterday" = "Yesterday";
+"Common-NO-Camera" = "Make sure your QR code is not shared publicly or stolen";
+"Common-NO-Network" = "Network failure. Please check the network and try again";
+"Common-Tip" = "Tips";
+"Common-Copy-Success" = "Copied successfully";
+"Common-No-Wallet" = "You don't have a wallet yet, would you like to create a new one now?";
+"Common-Password-enter-Placehoder" = "Please enter your password";
+"Common-Confirm-Title" = "Confirm Password";
+"Common-Confirm-Placehoder" = "Re-enter the password";
+"Common-Password-Hint" = "Password Hint (optional)";
+"Common-Password-8wei" = "Passwords should be at least 8 characters";
+"Common-Password-20wei" = "Passwords may not exceed 20 characters";
+"Common-Name-Empty" = "Wallet name cannot be left empty";
+"Common-Password-Empty" = "You must enter your password";
+"Common-Notmatch" = "Passwords entered do not match";
+"Common-Submit" = "The request has been submitted";
+"Common-balance" = "Balance";
+"Common-Safe-Top-1" = "As HPB is independent from other blockchain platforms including Ethereum, cross-chain transfer is not permitted in case of any asset loss.";
+"Common-Safe-Top-2" = "HPB Wallet only supports tokens issued on HPB's MainNet.";
+"Common-Safe-Center" = "Note: HPB does not support cross-chain transfer at this moment.";
+"Common-Safe-Confirm" = "I have read and understood the above";
+"Common-Safe-No-Tip"  = "Do not warn me about this again";
+"Common-Share-Download" = "Manage your digital assets and get all the latest news";
+"Common-Share-From" = "posted from the HPB Wallet App";
+"Common-Share-Success" = "Sharing Success";
+"Common-Share-Faile" = "Sharing Failed";
+"Common-Share-To" = "Share in";
+"Common-Share-Btn" = "Share";
+"Common-Share-Not-Install-weibo" = "You have not installed Weibo yet.";
+"Common-Share-Not-Install-qq" = "You have not installed qq yet.";
+"Common-Share-Not-Install-weChat" = "You have not installed WeChat yet.";
+"Common-Password-Strength-L" = "low";
+"Common-Password-Strength-M" = "medium";
+"Common-Password-Strength-H" = "high";
+"Common-week-7" = "Sun.";
+"Common-week-1" = "Mon.";
+"Common-week-2" = "Tues.";
+"Common-week-3" = "Wed.";
+"Common-week-4" = "Thur.";
+"Common-week-5" = "Fri.";
+"Common-week-6" = "Sat.";
+"Common-Save-Success" = "Save Success";
+"Common-TouchID-NotSet" = "The current phone is not set, now set?";
+"Common-FaceID-Message" = "Face ID failed multiple times in a short time, you need to verify the phone password";
+"Common-TouchID-Message" = "Please put your finger on the Home button";
+"Common-Lock-weakup" =  "Click to wake up for verification";
+"Common-Address-Empty-Tip" = "Wallet address cannot be empty";
+"Common-Close" = "Close";
+"Common-Auth-Login-Title" = "Authorized Login";
+"Common-Auth-Address-Title" = "Authorized Address";
+"Common-Auth-Alert-Title" = "Enter Password to Authorize";
+"Common-Next" = "Next";
+"Common-ColdWallet-Btn-Title" = "  Cold Wallet  ";
+"Common-Pay-WhiteList-error"  = "The payment address is illegal";
+"Common-ColdWallet-cannot"  = "Cold wallet cannot do this";
+"Common-Photo-Auth"  = "HPB Wallet does not have permission to use your photo album, you can open it as follows.";
+"Common-Photo-Open"  = "1. Open iPhone Settings\n\n2. Click on ‘Privacy’\n\n3. Click on ‘Camera’\n\n4. Set ‘HPB Wallet’ to enable";
+"Common-Open-Right" = "Open";
+"Common-Close-Right" = "Close";
+
+"Common-Photo-Auth-Tip" = "Please allow HPB Wallet to access your photos in the 'Settings - Privacy - Photos' option on the iPhone";
+"Common-IQ-Done" = "Done";
+"Common-Block-Confirming-State" = "The block is being confirmed\n(about 6 seconds)";
+"Common-All" = "All";
+"Common-Password-Title" = "Input Password";
+"Common-List-Empty" = "The list is empty";
+"Common-Money-RMB" = "CNY";
+"Common-Money-USD" = "USD";
+"Common-Unset" = "N/A";
+"Common-Select" = "Select";
+"Common-MainNet-Coin" = "Coin";
+"Common-HRC-Token" = "Token";
+
+"Common-Seting-Success" = "Successfully Set";
+"Common-Seting-Faile" = "Setup Failed";
+"Common-add-Wallet" =  "Add wallet";
+
+"Common-send-Signture" = "Do you send a signature?";
+
+//---------------网络请求错误提示-------------------
+
+"Network-Error-Block-Error"     = "The main network is being maintained";
+"Network-Error-Invalue-Address" = "Illegal wallet address";
+"Network-Error-Invalue-TradeHash" = "Illegal transaction HASH";
+"Network-Error-Invalue-BlockHash" = "Illegal block HASH";
+"Network-Error-Error-Param" = "Parameter error";
+"Network-Datarequest-Faile" = "Data request failed, please try again later";
+"Network-Error-Nonce-Low" = "nonce too low";
+"Network-Error-No-Funds" = "Insufficient account balance";
+"Network-Error-Pack" = "The transaction is being packaged";
+
+
+//---------------引导页-------------------
+
+"Guide-skip"    = "Skip";
+"Guide-clickIn" = "Enter";
+
+"Guide-Page-Top-1" = "HRC-20 & HRC-721 \nLaunched";
+"Guide-Page-Top-2" = "Node Reward \nPayment";
+"Guide-Page-Top-3" = "Updated UI";
+"Guide-Page-1" = "HRC-20 & HRC-721 now \ndisplayed in-wallet";
+"Guide-Page-2" = "The new feature enables node holders to distribute reward paymemts";
+"Guide-Page-3" = "Optimized design for a better user experience";
+
+
+//---------------首页-------------------
+
+//****首页****
+"Main-Receipt" = "Receive";
+"Main-Transfer" = "Transfer";
+"Main-Scan" = "Scan";
+"Main-Sync" =  "Synchronous";
+"SwitchWallet-Wallet-List" = "List of Wallets";
+"Main-No-Wallet-1" = "No wallet registered";
+"Main-No-Wallet-2" = "Create one now.";
+"Main-Total-Assert" = "Total Assets";
+"Main-Asset-List" = "Asset";
+"Main-Change-Address" =  "Change to another address";
+
+//****扫描页面****
+"Scan-Start" = "Camera starting";
+"Scan-QR" = "QR code";
+"Scan-Top-Tip" = "Align the QR code within the frame";
+"Scan-Album" = "Album";
+"Scan-Confirm" = "Confirm";
+"Scan-Title" = "Scan";
+"Scan-Failed-Ident" = "Failed to identify";
+"HPBScanController-WrongCode-Tip" = "Wrong QR code, please scan the recipient code in the wallet.";
+"Scan-ActionSheet-AccountInfo" = "Account Enquiries";
+"HPBScanController-WrongSign-Tip" = "The signature QR code is incorrect. Please scan the signature result generated by HPB Cold Wallet.";
+//收款页面
+"Receipt-Title" = "Receive";
+"Receipt-QrCode-Tip" = "Wallet QR code";
+"Receipt-QrCode-Show" = "Display QR code";
+"Receipt-Save-Photo" = "Save image";
+
+//****转账页面****
+"Transfer-Title-Transfer" = "Transfer";
+"Transfer-Btn-Send" = "Transfer";
+"Transfer-Title-Mapping" = "Mapping";
+"Transfer-Remark" =  "Add notes (max. 50 words)";
+"Transfer-remain" = "Limit";
+"Transfer-Address-Empty" = "You must enter an address for the transfer";
+"Transfer-Address-inValid" = "The address entered is not valid";
+"Transfer-Amount-Empty" = "You must enter the transfer amount";
+"Transfer-Beyound-Amount" = "The transfer amount must not exceed the maximum amount";
+"Transfer-No-ToMyself" = "Please transfer to another account";
+"Transfer-Mapping-Detail" =  "Mapping details";
+"Transfer-Get-Fee-Faile" = "failed to acquisition transaction fee";
+"Transfer-Submit" = "Send transaction successfully";
+"Transfer-Currency-Type" = "Currency Type";
+"Transfer-MainNet-Coin" = "Coin";
+"Transfer-Token-Management" = "Token Management";
+"Transfer-Token-Transfer" = "Token Transfer";
+"Transfer-Token-Inventory" = "Inventory";
+"Transfer-Token-ID" = "Token ID";
+"Transfer-Select-Currency-Type" = "Select Currency Type";
+"Transfer-Select-Token" = "Select Token";
+"Transfer-NO-Available-Tokens" =  "No available tokens can be transferred";
+"Transfer-First-Select-Tip" = "Please select a token first";
+"Transfer-Transfer-Times" = "Time of transfer";
+"Transfer-10-most-Recent" = "10 most recent transactions";
+"Transfer-Select-ID-Ranking" = "Ranking";
+"Transfer-Select-ID-Title" = "Select Token ID";
+"Transfer-Select-ID-Button" = "Select";
+"Transfer-721-Transfer-ID" = "Token ID";
+"Transfer-721-Transfer-ID-Empty-Tip" = "The Token ID can not be empty";
+
+"Transfer-Coin-Type-Empty-Tip" = "You have not selected the currency type";
+"Transfer-Coin-Select-Empty-Tip" = "You have not selected a currency";
+"Transfer-Out-Title-Quantity" = "Quantity";
+
+//****转账详情****
+"TransferConfirm-Details" =  "Confirm payment";
+"TransferConfirm-Order-Info" = "Action";
+"TransferConfirm-Receiver" = "Receiver";
+"TransferConfirm-Sender" = "Sender";
+"TransferConfirm-Payment" = "Transfer amount";
+"TransferConfirm-Addition-Info" = "Additional Infomation";
+
+//****我的资产****
+"TotalAsset-Title" = "HPB Assets";
+"TotalAsset-Assert:" = "Total Assets:";
+"TotalAsset-History" = "Transaction History";
+
+//****冷钱包转账页面****
+"Cold-Transfer-Title" = "Cold Wallet Transfer";
+"Cold-Transfer-TopTip" = "Please scan the QR code with your cold wallet,then fill in and sign the transfer information";
+"Cold-Transfer-Code-Detail" = "Details";
+"Cold-Transfer-Code-Sync" = "Please use the cold wallet to scan the QR code at the top of the screen";
+
+//---------------资讯-------------------
+
+"News-Top-Node" = "Node\n Dividend";
+"News-Top-Governance" = "Community\n Voting";
+"News-Top-Vote" = "Voting for\n Election";
+"News-Top-Mapping" = "MainNet\n Mapping";
+"News-Top-RedPacket" = "Red\n Packet";
+"News-Top-Sinature" = "Digital\n Signature";
+
+"News-News.title" = "News";
+"News-Brief-News" = "Express";
+"News-Reads" = " Reads";
+"News-Express" = " HPB Express ";
+"News-More" = "More";
+"News-Up" = "Scroll the page";
+"News-Detail" = "News Detail";
+"News-DAPPs" = "Applications";
+"News-DAPPs-Privacy-Tip" = "You are about to enter a third-party application and agree to the User Agreement and Privacy Policy of the third-party application. A third party may request your wallet address, and your third-party use will be the responsibility of a third party.";
+"News-RedPacket" = "Red Packet";
+"News-Send-RedPacket" = "Send Red Packet";
+"News-RedPacket-Record" = "History";
+"News-RedPacket-Detail" = "Red Packet Detail";
+"News-RedPacket-Total-Money" = "Total";
+"News-RedPacket-Random-Tip-1" = "Random Amount, Change to";
+"News-RedPacket-Random-Tip-2" = " Even Distribution";
+"News-RedPacket-Single-Money" = " Amount Each";
+"News-RedPacket-Single-Tip-1" = "Even Distribution,Change to";
+"News-RedPacket-Single-Tip-2" = " Random Amount";
+"News-RedPacket-Number" = "Quantity";
+"News-RedPacket-Placehoder" = "Best Wishes!";
+"News-RedPacket-SendButton" = "Create Red Packet";
+"News-RedPacket-BottomTip-24H" = "Red Packet Not Opened within 24 Hours Will Be Refunded to its Original Address";
+"News-RedPacket-Packeting" = "Preparing Red Packet";
+"News-RedPacket-Money—Input" = "Enter amount";
+"News-RedPacket-Number—Input" = "Please enter the number";
+
+"News-RedPacket-Refresh" = "Refresh";
+"News-RedPacket-Confirm-Wait" = "Awaiting Confirmaion (Estimate: 6 seconds)";
+"News-RedPacket-Finish" = "Red Packet Prepared";
+"News-RedPacket-DateLine" = "Red Packets Will Expire after 24 Hours";
+"News-RedPacket-Share" = "Sent You an HPB Red Packet";
+"News-RedPacket-Scan-open" = "Scan to receive Red Packet";
+"News-RedPacket-Save-Image" = "Save Image";
+
+
+"News-RedPacket-Wait-Receive" = "Here's an HPB Red Packet for You";
+"News-RedPacket-To-Receive" = "Open Red Packet";
+"News-RedPacket-Receive-Select-Address" = "Choose Wallet Address";
+
+
+"News-RedPacket-Record-Sent" = "Sent";
+"News-RedPacket-Record-Received" = "Received";
+"News-RedPacket-Record-Sent—Total" =  "Red Packets Sent";
+"News-RedPacket-Record-Receive—Total" =  "Red Packets Received";
+"News-RedPacket-Record-Send—Empty" =  "You have not sent a Red Packet yet";
+"News-RedPacket-Record-Receive—Empty" =  "You have not received a Red Packet yet";
+"News-RedPacket-Send-Faile" = "Failed to send Red Packet";
+
+"News-RedPacket-Identical" = "Even Distribution";
+"News-RedPacket-Random" = "Random Amount";
+"News-RedPacket-Received" =  "Opened";
+"News-RedPacket-State-Faile" =  "Sorry, no Red Packets left, please come earlier next time";
+"News-RedPacket-State-Conforming" =  "Confirming";
+"News-RedPacket-State-Receive-Over" =  "All Opened";
+"News-RedPacket-State-Expired" =  "Expired";
+"News-RedPacket-State-Ongoing" =  "Ongoing";
+"News-RedPacket-Continue-Send" =  "Share";
+"News-RedPacket-Luckiest" =  "Luckiest Draw";
+"News-RedPacket-Transfer-In" =  "Red Packet transferred in ";
+"News-RedPacket-State-Had-Received" =  "The Red Packet has expired";
+
+"News-RedPacket-Money-Empty-Tip" = "The amount cannot be empty";
+"News-RedPacket-Number-Empty-Tip" = "The number cannot be empty";
+"News-RedPacket-Beyong-MaxMoney-Tip" = "Insufficient account balance";
+"News-RedPacket-Number-100-Tip" = "Send up to 100 Red Packets at a time";
+"News-RedPacket-Money-100HPB-Tip" = "The amount cannot exceed 10000 HPB";
+"News-RedPacket-Money-10HPB-Tip" = "The amount of a single Red Packet cannot exceed 100 HPB";
+"News-RedPacket-Money-0.01HPB-Tip" = "The amount of a single Red Packet cannot be less than 0.01 HPB";
+
+"News-RedPacket-Receive-Success-Tip" = "Red Packet Received";
+"News-RedPacket-Receive-End-Tip" = "The Red Packet has ended";
+"News-RedPacket-Receive-Had-Tip" = "The Current Red Packet has been opened, each can be opened only once.";
+"News-RedPacket-Receive-Exprite-Tip" = "The Key has expired";
+"News-RedPacket-State-Had-All-Received" = "The Red Packet has been all opened";
+"News-RedPacket-Receive-Invalid-Tip" = "The Key is invalid";
+"News-RedPacket-Receive-Confirm-Tip-1" = "Please wait for a while, the system is trying to snatch a red packet for you.";
+"News-RedPacket-Receive-Confirm-State-1" = "The block is being confirmed";
+
+
+"News-RedPacket-Receive-Select-Tip" = "You have not chosen an address yet";
+"News-RedPacket-Receive-Creat-Tip" = "You have not created an address for your current wallet, you can't receive a Red Packet. Please create an address first!";
+"News-RedPacket-Receive-Creat-Btn" = "Create Wallet";
+"News-RedPacket-Send-Type-Normal" = "E";
+"News-RedPacket-Send-Type-Random" = "R";
+"News-RedPacket-Share-Title" = "A Red Packet from HPB";
+"News-RedPacke-Shake-Success" = "Great! You shook out a red packet";
+"News-RedPacke-Shake-Faile" = "Sorry, there's nothing here";
+"News-RedPacke-Shake-Btn-Receive" = "Open";
+"News-RedPacke-Shaking-Packet-over" = "Red Packet Sharing is over";
+"News-Dividend-Title" = "Node Dividend";
+"News-Dividend-Record" = "History";
+"News-Dividend-Empty-Node" = "Note: The current address is not a node, there is no node-related information";
+"News-Dividend-Hoder-Address" = "Binding Address";
+"News-Dividend-Node-Name" = "Node Name";
+"News-Dividend-Node-Address" = "Node Address";
+"News-Dividend-Current-Ranking" = "Current Ranking";
+"News-Dividend-Current-Votes" = "Current Votes";
+"News-Dividend-Total-Votes" = "Total Votes";
+"News-Dividend-FenHong-Precent" = "Reward %";
+"News-Dividend-See-Voting-Detail" = "Voting Detail";
+"News-Dividend-Become-Node" = "How do I become a node?";
+"News-Dividend-Vote-Detail" = "Node Voting Details";
+"News-Dividend-Send-Dividend" = "Set reward payment";
+"News-Dividend-Reward-Payment" = "Deposit reward payment";
+"News-Dividend-Select-Range-Dividend" = "Select Recipients";
+"News-Dividend-Reward-Payment-Amount" = "Preset reward payment amount";
+"News-Dividend-Reward-Input-Amount" = "Enter reward payment amount";
+"News-Dividend-Reward-Amount-Empty" = "Deposit amount cannot be blank";
+"News-Dividend-Set-Reward-Precent" = "Set reward payment percentage";
+"News-Dividend-Reset-7-Days" = "Reward payment percentage can be reset every 7 days";
+"News-Dividend-Reward-Total-HPB" = "Preset reward payment amount: %@ HPB in total";
+"News-Dividend-Reward-Detail" = "Details";
+"News-Dividend-Voting-Credits" = "Voting credits";
+"News-Dividend-NoData-Export" = "No data available to export";
+"News-Dividend-Voting-Introduction" = "Introduction of voting credits";
+"News-Dividend-Reward-percentage-0-100" = "Reward payment percentage: 0-100";
+
+
+
+"News-Dividend-Total-Voters-Title" = "Total Voters";
+"News-Dividend-Total-Tickets-Title" = "Total Votes";
+"News-Dividend-Export-Data-Title" = "Export Data";
+"News-Dividend-Rankings-Title" = "Ranking";
+"News-Dividend-Voting-Address-Title" = "Voting Address";
+"News-Dividend-Votes-Title" = "Votes";
+
+
+"News-Dividend-Total-Amount-of-Dividends" = "Total amount";
+"News-Dividend-Balance-Title" = "Balance";
+"News-Dividend-Dividend/Balance" = "Dividend/Balance";
+"News-Dividend-Confirm-Distribute" = "Confirm to Distribute";
+"News-Dividend-Select" = "Select";
+"News-Dividend-Filter-Votes" = "Filter Votes";
+"News-Dividend-Select-All" = "Select All";
+"News-Dividend-Send-Reward-Amount" = "Reward payment deposit";
+"News-Dividend-Can-Dividend-Amount" = "Deposited reward payment: ";
+"News-Dividend-Reward-Title" = "Reward Payment";
+"News-Dividend-Set-Precent-Empty-Tip" = "The Reward payment percentage can not be empty";
+
+
+"News-Governance-Title" = "Community Voting";
+
+"News-Governance-Voting-Record" =  "Voting Record";
+"News-Governance-State-Voting" = "Voting";
+"News-Governance-State-Processed" = "Voting results are being processed";
+"News-Governance-State-Passed" = "Passed Proposal";
+"News-Governance-State-Vetoed" = "Vetoed Proposal";
+"News-Governance-State-Invalid" = "Invalid Proposal";
+"News-Governance-More" = "More";
+"News-Governance-Time-Left" = "Voting ends in ";
+"News-Governance-Voting-Ends" = "Voting ends at ";
+"News-Governance-Proposal-Details" = "Proposal Details";
+"News-Governance-Proposal-Start-Time" =  "The proposal was initiated at ";
+"News-Governance-Community-Vote-Number" = "Total votes of community:";
+"News-Governance-Community-Votes-Casted" = "Votes Casted:";
+"News-Governance-Community-Votes-Available" = "Votes Available:";
+"News-Governance-Confirm-Vote" = "Confirm to Vote";
+"News-Governance-Proposal-Invalid-Time" = "The proposal was ruled invalid at ";
+"News-Governance-Proposal-Invalid-Reason" = "Reasons for invalid ruling";
+"News-Governance-Voting-History" = "Voting History";
+"News-Governance-Voting-Rules" = "Voting Rules";
+"News-Governance-Obsolete-Reason" = "This proposal is invalid, for the total votes cast are less than 500 thousand.";
+"News-Governance-Vote-Placehoder" = "Enter number (at least %@ votes)";
+"Vote-Confirm-lower-Vote" = "Please make sure the votes you cast are more than the required number";
+
+
+"News-Digital-Signatures-Title" = "Digital Signatures";
+"News-Digital-Signatures-Top-Input-Title" = "Please enter the string content to be signed";
+"News-Digital-Signatures-Record" = "Signature record";
+"News-Digital-Signatures-rule" = "Signature rule";
+"News-Digital-Signatures-Sinature-Btn" = "Signature";
+"News-Digital-Signatures-Text-Plachoder" =  "Please enter the string content you need to sign";
+"News-Digital-Signatures-Text-Empty-Tip" = "The signature content cannot be empty";
+"News-Digital-Signatures-Confirm" =  "Confirm signature";
+"News-Digital-Signatures-Copy" = "Copy";
+"News-Digital-Signatures-Detail" = "Signature details";
+
+"News-Digital-Signatures-Detail-Top" = "String content:";
+"News-Digital-Signatures-Detail-Bottom" = "Signature content:";
+"News-Digital-Signatures-Detail-Delete" =  "Delete";
+
+//---------------我的-------------------
+//****我的****
+"My-Share-Friend" = "Share HPB Wallet to your friends";
+"My-Share-Now" = "Share";
+"My-Message-Center" = "Message Center";
+"My-Settings" = "System Settings";
+"My-Help-Center" = "Help Center";
+"My-Aboutus" = "About Us";
+"My-Vote" = "Voting for Election";
+"My-Mapping" = "MainNet Mapping";
+"My-Cold-Wallet" = "Cold Wallet";
+"gl0-wy-bCF.text" = "Transaction History";
+
+
+//****地址薄****
+"AddressBook-AddNew" = "New Contact";
+"AddressBook-Edit" = "Edit";
+"My-Address-List" = "Address Book";
+"AddressBook-AddNew-Success" = "New contact succeeded";
+"AddressBook-textView-Placehoder" = "Please type or scan a QR code to enter HPB Wallet address.";
+"AddressBook-name-Placehoder" = "Please enter a name";
+"AddressBook-delete-record" = "Delete Contact";
+"AddressBook-iCould-backup" = "Cloud Backup";
+"AddressBook-iCould-open" = "Open";
+"AddressBook-iCould-close" = "Close";
+"AddressBook-iCould-tip" = "Open cloud backup to retrieve your data and restore it in the wallet";
+"AddressBook-iCould-detail" = "Detail";
+"AddressBook-iCould-detail-name" = "Name";
+"AddressBook-iCould-detail-out" = "Transfer Out";
+"AddressBook-iCould-detail-tip" = "Secure your data on the cloud";
+"AddressBook-NO-Contract" = "No Contact";
+"AddressBook-Name-Empty-Tip" = "Contact name cannot be empty";
+
+"AddressBook-iCould-Faile-Tip" = "Cloud backup failed";
+"AddressBook-iCould-Success-Tip" = "Cloud backup opened";
+"AddressBook-iCould-detail-close-Tip" = "Save data locally on the phone,";
+"AddressBook-iCould-Backup" = "Back up now";
+"AddressBook-Exist-Tip" = "Contact information already exists";
+"AddressBook-Emoj-Tip" = "Contact name cannot contain special characters";
+
+//****消息中心****
+"Message-Empty" = "You have not received any news yet";
+
+
+//****管理钱包****
+"ManageWallet-Title" = "Manage Wallet";
+"ManageWallet-Empty" = "Wallet was not created! ";
+"MessageDeatil-Title" =  "Details";
+
+//****创建钱包****
+
+"CreatWallet-Title-Modify" = "Create Wallet";
+"CreatWallet-Btn" = "Create Wallet";
+"CreatWallet-Name" = "Name of Wallet";
+"CreatWallet-Name-Placehoder" = "Name your wallet, e.g. My digital wallet";
+"CreatWallet-Password-Placehoder" = "Please set your password";
+"CreatWallet-Password-Title" = "Password";
+"CreatWallet-Failed-generate" = "generate wallet fail";
+"CreatWallet-Failed-create" = "create wallet fail";
+"CreatWallet-Creating" = "Creating new wallet";
+"CreatWallet-Creat-Success" = "Your wallet was created successfully";
+"CreatWallet-Name-12wei" = "The wallet name should be a maximum of 12 characters";
+
+
+//****钱包操作****
+"WalletHandel-Change-Password" = "Change Password";
+"WalletHandel-Export-PK" = "Export Private Key";
+"WalletHandel-Export-KS" = "Export Keystore";
+"WalletHandel-Delete-Wallet" = "Delete Wallet";
+"WalletHandel-No-Backup" =  " not backed up ";
+"WalletHandel-Title" = "Wallet Details";
+
+"WalletHandel-Delete-Tip" = "This operation is irreversible and the wallet will be permanently deleted!";
+
+"WalletHandel-Deleting" = "deleting···";
+"WalletHandel-Delete-Success" = "deleted successfully";
+"WalletHandel-Password-Error" = "Enter the password incorrectly";
+"WalletHandel-Modify-Success" = "modify successfully";
+"WalletHandel-Modify-Faile" = "modify faile";
+"WalletHandel-InCollect-PK" = "The private key is not standardized, please check";
+"WalletHandel-Import-Faile" = "Import failed";
+"WalletHandel-Import-Success" = "Imported Successfully";
+"WalletHandel-Exist-Wallet" = "This wallet has already been added";
+"WalletHandel-Keystore-Creat-Faile" = "Keystore file creation failed";
+
+"WalletHandel-New-Wallet" = "New wallet";
+"WalletHandel-Keystore-Faile" = "Keystore file error";
+"WalletHandel-Delete-ColdWallet-Tip" = "Do you want to delete the cold wallet?";
+
+
+//****修改密码****
+"ChangePassword-New"     =  "New password";
+"ChangePassword-Current" =  "Current password";
+"ChangePassword-Input-Old" = "Please enter the old password";
+"ChangePassword-Current-Empty" = "Current password cannot be left empty";
+"ChangePassword-New-Empty" = "New password cannot be left empty";
+"ChangePassword-Finish" = "Finish";
+"ChangePassword-Cant-Same" = "The new password cannot be the same as the old password";
+"ChangePassword-Re-Enter" = "Re-enter the password";
+"ChangePassword-Change-Success" = "password has been updated";
+
+
+//****导出私钥****
+"ExportPrivateKey-Prompt" = "IMPORTANT: Please set a strong password to protect your private key and secure your transaction authorizations. Your wallet does not store any user information and your password cannot be recovered.";
+
+"ExportPrivateKey-Prompt-New" = "Safety warning: Exporting your private key without encryption is risky. We suggest you use a mnemonic phrase and Keystore to back up your private key.";
+
+"ExportPrivateKey-Copy" = "Copy your private key";
+
+//****导出Kstore****
+"ExportKstore-File" = "Keystore File";
+"ShowKstore-Show" = "Show QR code";
+"ShowKstore-Hide" = "Hide QR code";
+"6hC-og-8dL.text" = "Password Safe has been saved";
+"Byn-aB-mmj.text" = "Please copy and paste your Keystore file to a safe and offline storage. Do not save your file in an email, online notebook, cloud storage or social messaging app.";
+"Fm1-tC-Aar.text" = "For saving the file online, it is recommended to save your Keystore file with a cryptographic management software to ensure a higher security level, e.g.1Password.";
+"Uy0-pw-vtr.normalTitle" = "Copy Keystore";
+"V8h-Lb-Ynk.text" = "Do not transmit your Keystore file on the Internet to prevent asset losses caused by hackers. We suggest offline transmission by using the QR code Scan.";
+"izc-7f-1Ok.text" = "Do not transmit via Internet";
+"xuy-Jd-cOI.text" = "Save offline";
+"06I-z8-Gpk.text" = "Please check your surroundings when scanning QR code in case of any irrevocable asset losses";
+"3jc-ry-X1s.text" = "Do not save, take screenshots or photos of the QR code, which is only used for users to import into the wallet by scanning under secure conditions.";
+"4kj-t9-zyn.text" = "For scanning only";
+"blW-j5-398.normalTitle" = "Show QR code";
+"xIZ-x4-IBr.text" = "Please use it in secure environment";
+
+
+//导入钱包
+"ImportWallet-Address-inValid" = "The address entered is not valid";
+"ImportWallet-Import" = "Import Wallet";
+"ImportWallet-PK-Title" = "Private key";
+"ImportWallet-Keystore-Title" = "Keystore";
+"ImportWallet-Mnemonic-Title" = "Mnemonic";
+"ImportWallet-ColdWallet-Title" = "Cold wallet";
+"ImportWallet-What-PK" = "What is a private key";
+"ImportWallet-What-Keystore" = "What is a Keystore";
+"ImportWallet-What-Mnemonic" = "What is a mnemonic";
+"ImportWallet-What-ColdWallet" = "Cold Wallet Tutorial";
+"ImportWallet-Cold-Placehoder" = "Please enter the cold wallet address";
+"ImportWallet-What-Cold-attention" = "Notes:";
+"ImportWallet-What-Cold-TopTip" = "1. Cold wallet is recommended when there are large amounts of assets.\n2. Importing the cold wallet can only allow for transaction information broadcasting or checking the account holdings, not signatures or starting a transaction.";
+
+"ImportWallet-PK-Placehoder" = "Plain text private key";
+"ImportWallet-Mnemonic-Placehoder" = "Separate each mnemonic by one space";
+"ImportWallet-Mnemonic-Empty" = "The mnemonic phrase cannot be left empty";
+"ImportWallet-Mnemonic-Top-Title" = "Please enter your mnemonic phrases";
+"ImportWallet-Keystore-Empty" = "The Keystore cannot be left empty";
+
+"ImportWallet-PK-Empty" = "The private key cannot be left empty";
+"ImportWallet-Mnemonic-error" = "The mnemonic phrase format is incorrect";
+"ImportWallet-Btn-Title" = "Confirm";
+"ImportKstore-Top-Tips" = "Please directly copy the Keystore file of your HPB wallet or scan the QR code of generated Keystore.";
+"ImportKstore-Placehoder" = "Keystore text";
+
+
+//****备份助记词****
+"Mnemonics-backup-Btn" = "Back up now";
+"Mnemonics-Backup" = "Back up mnemonic phrase";
+
+"BackupMnemonics-Delete-tips" = "Your mnemonic phrase have been verified, are you sure to remove this mnemonic phrase from your HPB wallet?";
+
+"BackupMnemonics-Disclaimer-content" = "Hardware and software can fail, be lost or stolen. Ensure that an automatic encrypted backup is made of your wallet to a location that you specify. HPB Wallet cannot recover any form of asset losses without your credentials.";
+
+"Mnemonics-Disclaimer" = "Disclaimer";
+"Mnemonics-Remove-Failed" = "Failed to remove local mnemonic phrase!";
+
+"Mnemonics-Format-Error" = "The format of your mnemonic phrase backup is not correct, choose again after verification!";
+
+"Mnemonics-Tutorial" = "Detailed tutorial";
+"Mnemonics-No-Backup-Btn" = "Do't back up for now, enter wallet";
+
+
+//****提示备份助记词****
+"Mnemonics-Creat-Success" = "Create Success";
+"Mnemonics-Tip-Backup" =  "Please back up your mnemonic phrase offline";
+"TipBackUpView-tips" = "We suggest you write down your mnemonic phrase and keep it in a safe place";
+"Mnemonics-Backup-Now" = "Back up now";
+"Mnemonics-Backup-mnemonic" = "Mnemonic phrase: a series of words used for identification and security purposes to help you recover your wallet";
+"Mnemonics-Backup-keystore-Tip" = "Back up the Keystore file: trade password-protected private key to help you recover your wallet.";
+
+
+
+//****帮助中心****
+"HelpCenter-FAQ" = "FAQ";
+"HelpCenter-Contact" = "Contact Us";
+"HelpCenter-Feedback" = "Feedback";
+
+//****语言选择*千分位****
+"LanguageUtil-Title" = "Languages";
+"LanguageUtil-Chinese" = "简体中文";
+"NumberStyle-Example" = "Example";
+"NumberStyle-Style" = "Decimal Seperator";
+"NumberStyle-Cell-China" = "Use “,” for the thousand separator";
+"NumberStyle-Cell-germy" = "Use “.” for the thousand separator";
+
+"SecureLogin-Title" = "Secure Login";
+"SecureLogin-FaceID" = "Face ID";
+"SecureLogin-TouchID" = "Fingerprint";
+"SecureLogin-Password" = "Password";
+"SecureLogin-Open" = "Secure login is opened";
+
+"Floating-Action-Button-Open" = "Floating Action Button";
+"Floating-Action-Button-Close" = "Turn Off the Floating Action Button";
+
+"My-Currency-Change" = "Currency";
+
+
+//****全部账单****
+"TransferRecord-Records" = "Transaction History";
+"TransferRecord-Out" =  "Transfer out";
+"TransferRecord-In" =  "Transfer in";
+"TransferRecord-Empty-Tip" = "Transaction record is empty";
+"TransferRecord-Current-Month" = "This month";
+
+
+//****交易详情****
+"TransferDetail-Transaction-Title" = "Transaction Details";
+"TransferDetail-Sender" = "Sender";
+"TransferDetail-Receiver" = "Receiver";
+"TransferDetail-Fees" = "Transaction Fee (Gas)";
+"TransferDetail-ID" = "Transaction ID";
+"TransferDetail-Block" = "Block";
+"TransferDetail-Time" = "Transaction time";
+"TransferDetail-Copy" = "Click and copy URL";
+"TransferDetail-Transaction-Success" = "Transaction Success";
+
+//****关于我们****
+"AboutUs-Version-detection" =  "Version Detection";
+"AboutUs-Terms" =  "Terms of Use";
+"AboutUs-Current-Version"  = "Current Version:";
+"AboutUs-Latest-Version"   = "Currently the latest version";
+"AboutUs-Wallet-Introduce" = "The HPB Wallet was designed to be the main gateway to the HPB blockchain. The wallet is an easy-to-use mobile app providing users a secure and simple way to access HPB’s voting and store HPB digital assets.";
+
+
+
+//****意见反馈****
+
+"Feedback-Questions" = "Questions";
+"Feedback-Suggestion" = "Suggestion";
+"Feedback-Others" = "Others";
+"Feedback-Content-Placehoder" = "Please enter contents";
+"Feedback-Title-Tip" = "The title cannot be left empty";
+"Feedback-Content-Tip" = "Contents cannot be left empty";
+"Feedback-Contract-Tip" = "You must enter your contact";
+"Feedback-Success-Tip" = "Your feedback and suggestions have been submitted, thank you!";
+"Feedback-Title-Placehoder" = "Please enter a title";
+"Feedback-Max-Content" = "Cannot exceed 100 characters";
+
+//****映射****
+"Mapping-import" = "Start to import";
+"MappingList-Title" = "List of mapped wallets";
+"MappingList-Empty-tip" = "You don‘t had mapped wallet";
+"MappingList-Search" = " Search";
+"MappingList-Map" = " Mapping";
+"MappingRecord-Title" = "Mapping record";
+"MappingRecord-Empty-tip" = "The mapping record is empty";
+"TransferDetail-Mapping-Success" = "Mapping success";
+"ImportWallet-Mapping-Exist-Tip" = "The current wallet already exists, is it added to the mapping list?";
+"Mapping-NO-Wallet-Tip" = "Please import your wallet for mapping first!";
+"Mapping-List-Faile" = "Failed to get the list!";
+
+
+//********投票*********
+
+"Vote-Note-Vote" = "HPB Node Voting";
+"Vote-Note-Rule" = "Voting Rules";
+"Vote-My-Vote" = "My Votes";
+"Vote-Query" = "Search";
+"Vote-Query-Keyword-Tip" = "Search content cannot be empty";
+"Vote-Select-Default" = "Default";
+"Vote-Select-jigou" = "Organization";
+"Vote-Select-Company" = "Company";
+"Vote-Select-Personal" = "Individual";
+"Vote-Vote-Btn" = "Vote";
+"Vote-Rank-Title" = "Rank";
+"Vote-Name-Title"  = "Name";
+"Vote-Number-Title" = "Votes";
+"Vote-Vote-Title" = "Vote";
+"Vote-Query-Title" = "Search Results";
+"Vote-Detail-CurrentVote" = "Current Votes";
+"Vote-Detail-Location" = "Location";
+"Vote-Detail-Website" = "Website";
+"Vote-Confirm-Max-Number-Vote" = "maximum: %@ votes";
+"Vote-Confirm-Max-Number-Cancel" = "maximum: %@ votes";
+"Vote-Confirm-Max-Piao" = "votes";
+"Vote-Voting-hud" = "Voting";
+"Vote-Confirm-Note" = "Selected Node";
+"Vote-Confirm-Nnumer" = "Number of votes";
+"Vote-Confirm-Cancel-Number" = "Number of withdrawals";
+"Vote-Confirm-Password" = "Input Password";
+"Vote-Confirm-Confirm" = "Confirm to Vote";
+
+"Vote-Success-Tip" = "Voted Successfully";
+"Vote-Faile-Tip" = "Voted Failed";
+"Vote-Success-Cancel-Tip" = "Successful withdrawal";
+"Vote-Faile-Cancel-Tip" = "Withdrawal failed";
+"Vote-Had-Vote-Tip" = "Vote Submitted";
+"Vote-Confirm-Numeber-Empty" = "The number of votes cannot be 0";
+"Vote-Confirm-Numeber-Empty-Cancel" = "The number of withdrawals cannot be 0";
+"Vote-Confirm-beyound" = "More than the maximum number of votes";
+"Vote-Confirm-beyound-Cancel" = "More than the maximum number of withdrawals";
+
+"Vote-Confirm-Password-tip" = "Enter password cannot be empty";
+"Vote-Confirm-Receive" = "Receiving";
+"Vote-Confirm-My-Vote" = "My Votes";
+"Vote-My-Balance" = "Eligible votes";
+"Vote-My-Had-Vote" = "Votes casted";
+"Vote-My-Vote-History" = "Voting History";
+"Vote-My-Vote-Empty" = "No voting Record";
+"Vote-My-Vote-Current" = "Current Votes";
+"Vote-My-Vote-My" = "My Votes";
+"Vote-My-Vote-Date" = "Voting Time";
+"Vote-My-Vote-Cancel" = "Withdraw vote";
+"Vote-My-Vote-Had-Cancel" = "Revoked";
+"Vote-My-Vote-Had-Vote" = "Voted";
+"Vote-My-Vote-Canceling" = "Revoking";
+"Vote-My-Vote-Cancel-Faile" = "Revocation failed";
+"Vote-Vote-Waiting-Text" = "The campaign will soon gear up";
+"Vote-Vote-No-Fee" = "Insufficient fee";
+"Vote-Search-Empty" = "The search record is empty";
+
+"Vote-Update-Hold-Address" = " Modify Node Address";
+"Vote-Update-To-Auth" = " Authorize";
+"Vote-Update-Address-Password-Error" = "Enter the password incorrectly";
+"Vote-Update-Address-Address-Empty" = "The Address cannot be empty";
+"Vote-Update-Address-Password-Empty" = "The Password can not be empty";
+"Vote-Update-Address-Incorrect-Address-Format" = "Incorrect address format";
+"Vote-Authorized-Success-Tip" = "Authorized";
+"Vote-Authorized-Faile-Tip" = "Failed to authorize";
+"Vote-Authorized-Modify-Success" = "Modified";
+"Vote-Authorized-Modify-Faile" = "Failed to modify";
+"Vote-Modify-Address-View-Top" = "Please enter a new Node Address";
+"Vote-Modify-Address-View-Confirm-Btn" = "Confirm to Modify";
+"Vote-Modify-Address-Same" = "Modify address cannot be the same";
+"Vote-Authorized-Address-Alert-Tip" = "please use %@ address to log in, open the page of %@ node details to verify the authorization";
+"Vote-Authorized-Address-Title-Tip" = "等待持币地址授权";

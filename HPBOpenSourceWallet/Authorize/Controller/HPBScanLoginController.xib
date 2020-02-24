@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HPBScanLoginController" customModule="HPBWallet" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelBtn" destination="1YS-MQ-y0G" id="gmm-ZO-Na9"/>
+                <outlet property="centerLabel" destination="knO-n6-cNs" id="xgt-7S-d9y"/>
+                <outlet property="decLabel" destination="ddk-Q6-bET" id="k6p-hn-P24"/>
+                <outlet property="loginBtn" destination="gXO-ku-UTt" id="3UD-Fo-ZJH"/>
+                <outlet property="logoImage" destination="hXJ-vH-gKa" id="p0q-1j-sYx"/>
+                <outlet property="titleLabel" destination="FM2-IE-MJT" id="W1l-oz-gfh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hXJ-vH-gKa">
+                    <rect key="frame" x="137.5" y="84" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="RA9-XB-Vqz"/>
+                        <constraint firstAttribute="width" constant="100" id="T0d-3X-q60"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="王者战车" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FM2-IE-MJT">
+                    <rect key="frame" x="146.5" y="204" width="82" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="即将登陆王者战车，请确认是本人操作" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knO-n6-cNs">
+                    <rect key="frame" x="20" y="279" width="335" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="即将登陆王者战车，请确认是本人操作" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddk-Q6-bET">
+                    <rect key="frame" x="20" y="314.5" width="335" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BqT-PC-Elk">
+                    <rect key="frame" x="20" y="258" width="345" height="1"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.91764705879999997" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="usc-Tb-sIL"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXO-ku-UTt">
+                    <rect key="frame" x="20" y="398.5" width="335" height="45"/>
+                    <color key="backgroundColor" red="0.37944135273972601" green="0.69860338184931503" blue="0.60249892979452058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="jb1-vg-ya5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="确认登录">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="loginBtnClick:" destination="-1" eventType="touchUpInside" id="zca-Ct-eBh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1YS-MQ-y0G">
+                    <rect key="frame" x="20" y="468.5" width="335" height="45"/>
+                    <color key="backgroundColor" red="0.94130657399946283" green="0.94221624865699705" blue="0.94264433084877786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="APU-up-nlf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelBtnClick:" destination="-1" eventType="touchUpInside" id="dHz-L6-ffb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="FM2-IE-MJT" firstAttribute="top" secondItem="hXJ-vH-gKa" secondAttribute="bottom" constant="20" id="4m0-OW-7oM"/>
+                <constraint firstItem="BqT-PC-Elk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="5XG-qy-55S"/>
+                <constraint firstItem="FM2-IE-MJT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="CC2-qD-632"/>
+                <constraint firstAttribute="trailing" secondItem="ddk-Q6-bET" secondAttribute="trailing" constant="20" id="EQx-GL-VpI"/>
+                <constraint firstItem="gXO-ku-UTt" firstAttribute="top" secondItem="ddk-Q6-bET" secondAttribute="bottom" constant="68" id="FJp-3Z-ZEU"/>
+                <constraint firstAttribute="trailing" secondItem="BqT-PC-Elk" secondAttribute="trailing" constant="10" id="Izg-sO-258"/>
+                <constraint firstItem="ddk-Q6-bET" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Ohv-WO-Kg4"/>
+                <constraint firstItem="ddk-Q6-bET" firstAttribute="top" secondItem="knO-n6-cNs" secondAttribute="bottom" constant="16" id="T9N-uJ-SAL"/>
+                <constraint firstItem="hXJ-vH-gKa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WlZ-GJ-hGw"/>
+                <constraint firstItem="hXJ-vH-gKa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="abO-r9-m5w"/>
+                <constraint firstAttribute="trailing" secondItem="knO-n6-cNs" secondAttribute="trailing" constant="20" id="aji-0s-SEW"/>
+                <constraint firstAttribute="trailing" secondItem="gXO-ku-UTt" secondAttribute="trailing" constant="20" id="gst-4j-dV4"/>
+                <constraint firstItem="knO-n6-cNs" firstAttribute="top" secondItem="BqT-PC-Elk" secondAttribute="bottom" constant="20" id="iOs-Wx-jec"/>
+                <constraint firstItem="knO-n6-cNs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="j6f-Sj-Ms7"/>
+                <constraint firstAttribute="trailing" secondItem="1YS-MQ-y0G" secondAttribute="trailing" constant="20" id="sgl-3j-WWT"/>
+                <constraint firstItem="1YS-MQ-y0G" firstAttribute="top" secondItem="gXO-ku-UTt" secondAttribute="bottom" constant="25" id="sl4-XV-Fdb"/>
+                <constraint firstItem="BqT-PC-Elk" firstAttribute="top" secondItem="FM2-IE-MJT" secondAttribute="bottom" constant="30" id="tK6-wT-iaa"/>
+                <constraint firstItem="gXO-ku-UTt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="wSu-5x-DwM"/>
+                <constraint firstItem="1YS-MQ-y0G" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="yRI-Oh-jtg"/>
+            </constraints>
+            <point key="canvasLocation" x="-231" y="-17"/>
+        </view>
+    </objects>
+</document>

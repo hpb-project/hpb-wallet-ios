@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HPBWaitRedPacketView" customModule="HPBWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hM7-SA-aRV">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="666.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="hM7-SA-aRV" secondAttribute="height" multiplier="360:640" id="Qgo-lX-EZj"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你有待领取的红包" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86x-pp-k77">
+                    <rect key="frame" x="50" y="324.5" width="275" height="18"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" red="0.93725490199999995" green="0.77647058820000003" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpB-et-oEj">
+                    <rect key="frame" x="112.5" y="581" width="150" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="ZUR-1C-2Se"/>
+                        <constraint firstAttribute="width" constant="150" id="d92-5l-WOA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="领取红包" backgroundImage="redpachet_refresh">
+                        <color key="titleColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="receiveBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="s5s-Im-Skg"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="红包有效期24小时" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rG8-GD-zRA">
+                    <rect key="frame" x="60" y="352.5" width="255" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x2Z-8X-K9U">
+                    <rect key="frame" x="284" y="44" width="91" height="81"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="91" id="2aV-P1-Osa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" image="redpacket_close">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <state key="highlighted" image="redpacket_close"/>
+                    <connections>
+                        <action selector="closeBtnCLick:" destination="iN0-l3-epB" eventType="touchUpInside" id="dZw-Fg-9dw"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="86x-pp-k77" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="0MU-ru-rWz"/>
+                <constraint firstItem="hM7-SA-aRV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8Pz-jG-F59"/>
+                <constraint firstItem="x2Z-8X-K9U" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="44" id="Eqb-OU-FG5"/>
+                <constraint firstItem="jpB-et-oEj" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Lck-EW-Tyk"/>
+                <constraint firstItem="rG8-GD-zRA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="60" id="NMG-jT-47u"/>
+                <constraint firstItem="hM7-SA-aRV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="OVg-NK-5gJ"/>
+                <constraint firstItem="86x-pp-k77" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bxe-5e-oeP"/>
+                <constraint firstAttribute="trailing" secondItem="x2Z-8X-K9U" secondAttribute="trailing" id="cqm-gI-JMa"/>
+                <constraint firstItem="rG8-GD-zRA" firstAttribute="top" secondItem="86x-pp-k77" secondAttribute="bottom" constant="10" id="eKF-aU-mbO"/>
+                <constraint firstAttribute="bottom" secondItem="jpB-et-oEj" secondAttribute="bottom" constant="50" id="hA3-Q1-fcl"/>
+                <constraint firstAttribute="trailing" secondItem="hM7-SA-aRV" secondAttribute="trailing" id="mM1-zv-Wg8"/>
+                <constraint firstItem="rG8-GD-zRA" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="oQw-zH-nU4"/>
+                <constraint firstItem="x2Z-8X-K9U" firstAttribute="width" secondItem="x2Z-8X-K9U" secondAttribute="height" multiplier="91:81" id="zMf-JU-cnH"/>
+                <constraint firstItem="86x-pp-k77" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="zgu-D6-zp2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dateLineLabel" destination="rG8-GD-zRA" id="cgZ-im-VGV"/>
+                <outlet property="imageView" destination="hM7-SA-aRV" id="yeq-7X-uZ1"/>
+                <outlet property="receiveBtn" destination="jpB-et-oEj" id="Wde-Y8-RU8"/>
+                <outlet property="tipLabel" destination="86x-pp-k77" id="mgb-ax-mRj"/>
+            </connections>
+            <point key="canvasLocation" x="-74.637681159420296" y="71.316964285714278"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="redpachet_refresh" width="150" height="36"/>
+        <image name="redpacket_close" width="26" height="26"/>
+    </resources>
+</document>

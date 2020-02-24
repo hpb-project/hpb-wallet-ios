@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HPBTipBackUpView" customModule="HPBWallet" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomLabel" destination="6cZ-zg-0rZ" id="EF3-Vz-bfN"/>
+                <outlet property="centerLabel" destination="zfq-sr-CTW" id="wbj-Or-fMj"/>
+                <outlet property="confirmBtn" destination="5jB-dH-y80" id="UMZ-qn-1Gm"/>
+                <outlet property="contentView" destination="qcS-PH-CuO" id="DCi-Sg-avV"/>
+                <outlet property="titleLabel" destination="bxn-Dc-FsP" id="Tsy-qj-AZ2"/>
+                <outlet property="topLabel" destination="SW3-4E-Sp4" id="ZfM-ke-j6x"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Lhy-uG-chf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qcS-PH-CuO">
+                    <rect key="frame" x="20" y="123.5" width="335" height="420.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请离线备份助记词" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bxn-Dc-FsP">
+                            <rect key="frame" x="20" y="40" width="295" height="23"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <color key="textColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="建议用纸抄下来，保存到安全的地方" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfq-sr-CTW">
+                            <rect key="frame" x="30" y="74" width="275" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40784313729999999" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_backup_center" translatesAutoresizingMaskIntoConstraints="NO" id="1qu-8A-4W8">
+                            <rect key="frame" x="120.5" y="121" width="94" height="89"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="94" id="4MV-Oa-FSl"/>
+                                <constraint firstAttribute="height" constant="89" id="bb4-1Q-1nk"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_safe_left" translatesAutoresizingMaskIntoConstraints="NO" id="pyB-TQ-sUJ">
+                            <rect key="frame" x="40" y="262" width="8" height="8"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="8" id="LS9-cP-6To"/>
+                                <constraint firstAttribute="height" constant="8" id="vJP-b0-wFs"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_safe_left" translatesAutoresizingMaskIntoConstraints="NO" id="5w5-iq-ewt">
+                            <rect key="frame" x="40" y="238" width="8" height="8"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="8" id="2hL-0k-upl"/>
+                                <constraint firstAttribute="height" constant="8" id="rTO-3t-IaM"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HPB钱包平台仅支持在其自身平台上" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SW3-4E-Sp4">
+                            <rect key="frame" x="53" y="235" width="262" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="1" green="0.2666666667" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请勿从其他区块链平台钱包（包括imtoken等" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cZ-zg-0rZ">
+                            <rect key="frame" x="53" y="259" width="262" height="33.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="1" green="0.2666666667" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jB-dH-y80" customClass="HPBSelectImgeButton" customModule="HPBWallet" customModuleProvider="target">
+                            <rect key="frame" x="20" y="337.5" width="295" height="43"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="43" id="qKZ-zA-Drc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="知道了" backgroundImage="main_receipt_btn"/>
+                            <connections>
+                                <action selector="backupBtnClick:" destination="-1" eventType="touchUpInside" id="5wX-RI-XVS"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="SW3-4E-Sp4" secondAttribute="trailing" constant="20" id="3Bd-q9-xy9"/>
+                        <constraint firstItem="zfq-sr-CTW" firstAttribute="leading" secondItem="qcS-PH-CuO" secondAttribute="leading" constant="30" id="5jd-10-A7u"/>
+                        <constraint firstItem="SW3-4E-Sp4" firstAttribute="leading" secondItem="5w5-iq-ewt" secondAttribute="trailing" constant="5" id="6IN-mP-oxX"/>
+                        <constraint firstItem="6cZ-zg-0rZ" firstAttribute="trailing" secondItem="SW3-4E-Sp4" secondAttribute="trailing" id="9sA-UJ-LXe"/>
+                        <constraint firstItem="5jB-dH-y80" firstAttribute="top" secondItem="6cZ-zg-0rZ" secondAttribute="bottom" constant="45" id="B1y-aC-c5U"/>
+                        <constraint firstItem="zfq-sr-CTW" firstAttribute="top" secondItem="bxn-Dc-FsP" secondAttribute="bottom" constant="11" id="Fd4-29-nCG"/>
+                        <constraint firstItem="5w5-iq-ewt" firstAttribute="leading" secondItem="qcS-PH-CuO" secondAttribute="leading" constant="40" id="HyC-BH-qlG"/>
+                        <constraint firstItem="pyB-TQ-sUJ" firstAttribute="top" secondItem="6cZ-zg-0rZ" secondAttribute="top" constant="3" id="I2V-A9-4lF"/>
+                        <constraint firstItem="5jB-dH-y80" firstAttribute="centerX" secondItem="qcS-PH-CuO" secondAttribute="centerX" id="IRP-WV-LKd"/>
+                        <constraint firstItem="6cZ-zg-0rZ" firstAttribute="top" secondItem="SW3-4E-Sp4" secondAttribute="bottom" constant="7" id="UEA-MH-WI7"/>
+                        <constraint firstItem="bxn-Dc-FsP" firstAttribute="centerX" secondItem="qcS-PH-CuO" secondAttribute="centerX" id="W7a-qh-vmh"/>
+                        <constraint firstItem="6cZ-zg-0rZ" firstAttribute="leading" secondItem="SW3-4E-Sp4" secondAttribute="leading" id="Wy4-iO-asn"/>
+                        <constraint firstItem="5jB-dH-y80" firstAttribute="leading" secondItem="qcS-PH-CuO" secondAttribute="leading" constant="20" id="cKB-Jt-fdu"/>
+                        <constraint firstItem="pyB-TQ-sUJ" firstAttribute="leading" secondItem="5w5-iq-ewt" secondAttribute="leading" id="cy1-NE-NcM"/>
+                        <constraint firstItem="SW3-4E-Sp4" firstAttribute="top" secondItem="1qu-8A-4W8" secondAttribute="bottom" constant="25" id="ioR-Gv-RFH"/>
+                        <constraint firstItem="bxn-Dc-FsP" firstAttribute="top" secondItem="qcS-PH-CuO" secondAttribute="top" constant="40" id="jM7-Pj-RVU"/>
+                        <constraint firstItem="1qu-8A-4W8" firstAttribute="top" secondItem="zfq-sr-CTW" secondAttribute="bottom" constant="30" id="jPP-XW-2vn"/>
+                        <constraint firstItem="5w5-iq-ewt" firstAttribute="top" secondItem="SW3-4E-Sp4" secondAttribute="top" constant="3" id="kyS-Hj-x9N"/>
+                        <constraint firstAttribute="bottom" secondItem="5jB-dH-y80" secondAttribute="bottom" constant="40" id="l2M-85-SX0"/>
+                        <constraint firstItem="bxn-Dc-FsP" firstAttribute="leading" secondItem="qcS-PH-CuO" secondAttribute="leading" constant="20" id="pKt-hR-tr4"/>
+                        <constraint firstItem="1qu-8A-4W8" firstAttribute="centerX" secondItem="qcS-PH-CuO" secondAttribute="centerX" id="rTr-U0-Xm8"/>
+                        <constraint firstItem="zfq-sr-CTW" firstAttribute="centerX" secondItem="qcS-PH-CuO" secondAttribute="centerX" id="tnF-k1-aUq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="qcS-PH-CuO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="ZH6-Oj-OeQ"/>
+                <constraint firstItem="qcS-PH-CuO" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="qul-Xi-05a"/>
+                <constraint firstItem="qcS-PH-CuO" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yXq-OZ-YmX"/>
+            </constraints>
+            <point key="canvasLocation" x="-3636" y="23"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="main_backup_center" width="94" height="88"/>
+        <image name="main_receipt_btn" width="365" height="75"/>
+        <image name="main_safe_left" width="8" height="8"/>
+    </resources>
+</document>

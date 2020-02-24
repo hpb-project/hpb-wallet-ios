@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HPBImportColdWalletView" customModule="HPBWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="509"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifl-hi-ldM">
+                    <rect key="frame" x="20" y="44" width="335" height="50.5"/>
+                    <string key="text">1、大额资产建议使用冷钱包
+2、导入冷钱包仅可广播交易信息或观察账户内容，不能签名或发送交易。</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40784313729999999" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yju-hO-Lcm" customClass="HPBTextView" customModule="HPBWallet" customModuleProvider="target">
+                    <rect key="frame" x="20" y="119.5" width="335" height="90"/>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="aHw-C0-CwO"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vXV-Hb-O85" customClass="HPBInputView" customModule="HPBWallet" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="229.5" width="375" height="40"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="6Zt-vR-By9"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S83-gc-ou5" customClass="HPBBackImgeButton" customModule="HPBWallet" customModuleProvider="target">
+                    <rect key="frame" x="20" y="377.5" width="335" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="cvy-VU-84Z"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="开始导入"/>
+                    <connections>
+                        <action selector="importBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="0ty-KJ-DqF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Tz-pp-JeZ">
+                    <rect key="frame" x="137.5" y="442.5" width="100" height="29"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="29" id="yuG-NM-Nue"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="什么是助记词？">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="introuceBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="C1I-BY-ADP"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="注意事项:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWm-2L-L4V">
+                    <rect key="frame" x="20" y="17" width="62" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vXV-Hb-O85" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4pU-Op-vil"/>
+                <constraint firstItem="xWm-2L-L4V" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="17" id="5OJ-56-xch"/>
+                <constraint firstAttribute="trailing" secondItem="Yju-hO-Lcm" secondAttribute="trailing" constant="20" id="CXw-cP-yOG"/>
+                <constraint firstItem="vXV-Hb-O85" firstAttribute="top" secondItem="Yju-hO-Lcm" secondAttribute="bottom" constant="20" id="MSN-De-aGD"/>
+                <constraint firstItem="Ifl-hi-ldM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="WvP-jH-uWK"/>
+                <constraint firstItem="8Tz-pp-JeZ" firstAttribute="top" secondItem="S83-gc-ou5" secondAttribute="bottom" constant="20" id="ZRR-fX-G6n"/>
+                <constraint firstAttribute="trailing" secondItem="S83-gc-ou5" secondAttribute="trailing" constant="20" id="bgE-a7-Hec"/>
+                <constraint firstItem="Ifl-hi-ldM" firstAttribute="top" secondItem="xWm-2L-L4V" secondAttribute="bottom" constant="10" id="dkt-PZ-7TG"/>
+                <constraint firstItem="8Tz-pp-JeZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="eZ6-O9-B7c"/>
+                <constraint firstItem="Yju-hO-Lcm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="iQO-32-jH6"/>
+                <constraint firstItem="S83-gc-ou5" firstAttribute="top" secondItem="vXV-Hb-O85" secondAttribute="bottom" constant="108" id="lYK-Ss-bha"/>
+                <constraint firstItem="S83-gc-ou5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="lu0-xr-4nK"/>
+                <constraint firstItem="Ifl-hi-ldM" firstAttribute="leading" secondItem="xWm-2L-L4V" secondAttribute="leading" id="pvJ-YX-Cdl"/>
+                <constraint firstAttribute="trailing" secondItem="Ifl-hi-ldM" secondAttribute="trailing" constant="20" id="qPM-wj-kB1"/>
+                <constraint firstItem="Yju-hO-Lcm" firstAttribute="top" secondItem="Ifl-hi-ldM" secondAttribute="bottom" constant="25" id="w38-qV-fNU"/>
+                <constraint firstAttribute="trailing" secondItem="vXV-Hb-O85" secondAttribute="trailing" id="zkm-kX-DIJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="introduceBtn" destination="8Tz-pp-JeZ" id="XVf-fL-zll"/>
+                <outlet property="nameInputView" destination="vXV-Hb-O85" id="KFs-wb-QvI"/>
+                <outlet property="startImportBtn" destination="S83-gc-ou5" id="GpS-Sw-jUG"/>
+                <outlet property="textView" destination="Yju-hO-Lcm" id="N9h-lN-9tB"/>
+                <outlet property="topAttentionLabel" destination="xWm-2L-L4V" id="rmu-UR-nld"/>
+                <outlet property="topTitleLabel" destination="Ifl-hi-ldM" id="B4j-BK-URH"/>
+            </connections>
+            <point key="canvasLocation" x="-396" y="133"/>
+        </view>
+    </objects>
+</document>

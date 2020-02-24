@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HPBSafeTipController" customModule="HPBWallet" customModuleProvider="target">
+            <connections>
+                <outlet property="centerLabel" destination="Ovn-B0-6v0" id="dJZ-25-CXg"/>
+                <outlet property="confirmBtn" destination="lX7-aC-zol" id="ynZ-mp-1lh"/>
+                <outlet property="contentView" destination="WhY-xq-qXK" id="BRM-Qv-tDb"/>
+                <outlet property="noTipBtn" destination="2K2-C4-CSm" id="qpH-yl-PiF"/>
+                <outlet property="topLabel" destination="rM5-9I-Ncx" id="k6r-dI-SWR"/>
+                <outlet property="topLabelTwo" destination="HB9-pB-XEQ" id="eL3-tq-jWF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WhY-xq-qXK">
+                    <rect key="frame" x="30" y="114.5" width="315" height="438.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="注：HPB暂不支持跨链转账" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ovn-B0-6v0">
+                            <rect key="frame" x="30" y="200" width="255" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="1" green="0.26666666666666666" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_safe_waring" translatesAutoresizingMaskIntoConstraints="NO" id="ChH-Cj-1XU">
+                            <rect key="frame" x="87.5" y="30" width="140" height="140"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="140" id="SHa-B3-soD"/>
+                                <constraint firstAttribute="width" constant="140" id="uBr-Ei-eY6"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2K2-C4-CSm">
+                            <rect key="frame" x="132.5" y="396.5" width="50" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="VVc-W9-ZOr"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="不再提示">
+                                <color key="titleColor" red="0.61176470588235299" green="0.61960784313725492" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="noTipClick:" destination="-1" eventType="touchUpInside" id="zwh-67-4hQ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lX7-aC-zol" customClass="HPBSelectImgeButton" customModule="HPBWallet" customModuleProvider="target">
+                            <rect key="frame" x="17" y="339.5" width="281" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="b4x-zu-Xnd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="知道了" backgroundImage="main_receipt_btn"/>
+                            <connections>
+                                <action selector="confirmClick:" destination="-1" eventType="touchUpInside" id="y1o-jG-hj4"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_safe_left" translatesAutoresizingMaskIntoConstraints="NO" id="jUX-UN-0Qs">
+                            <rect key="frame" x="30" y="272.5" width="8" height="8"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="8" id="BDc-7n-7ML"/>
+                                <constraint firstAttribute="width" constant="8" id="efh-Vl-pU2"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_safe_left" translatesAutoresizingMaskIntoConstraints="NO" id="fUm-K6-fh6">
+                            <rect key="frame" x="30" y="252.5" width="8" height="8"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="8" id="Ult-Xk-ixw"/>
+                                <constraint firstAttribute="width" constant="8" id="oez-AX-WcW"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HPB钱包平台仅支持在其自身平台上" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rM5-9I-Ncx">
+                            <rect key="frame" x="43" y="249.5" width="252" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12.5"/>
+                            <color key="textColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请勿从其他区块链平台钱包（包括imtoken等以太坊 钱包）转账任何资产至HPB钱包！" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HB9-pB-XEQ">
+                            <rect key="frame" x="43" y="269.5" width="252" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12.5"/>
+                            <color key="textColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="fUm-K6-fh6" firstAttribute="leading" secondItem="WhY-xq-qXK" secondAttribute="leading" constant="30" id="3hc-tm-CIe"/>
+                        <constraint firstItem="rM5-9I-Ncx" firstAttribute="top" secondItem="Ovn-B0-6v0" secondAttribute="bottom" constant="30" id="5K4-A7-cV5"/>
+                        <constraint firstAttribute="bottom" secondItem="2K2-C4-CSm" secondAttribute="bottom" constant="22" id="9Aj-r9-6bo"/>
+                        <constraint firstItem="2K2-C4-CSm" firstAttribute="centerX" secondItem="WhY-xq-qXK" secondAttribute="centerX" id="Anr-Pe-TNW"/>
+                        <constraint firstAttribute="trailing" secondItem="HB9-pB-XEQ" secondAttribute="trailing" constant="20" id="B9b-NA-FCp"/>
+                        <constraint firstItem="jUX-UN-0Qs" firstAttribute="leading" secondItem="fUm-K6-fh6" secondAttribute="leading" id="D1b-Om-r8N"/>
+                        <constraint firstAttribute="trailing" secondItem="rM5-9I-Ncx" secondAttribute="trailing" constant="20" id="EDg-jh-BO4"/>
+                        <constraint firstAttribute="trailing" secondItem="Ovn-B0-6v0" secondAttribute="trailing" constant="30" id="Gxy-4W-S9r"/>
+                        <constraint firstItem="HB9-pB-XEQ" firstAttribute="leading" secondItem="jUX-UN-0Qs" secondAttribute="trailing" constant="5" id="HKz-TO-bg2"/>
+                        <constraint firstItem="fUm-K6-fh6" firstAttribute="top" secondItem="rM5-9I-Ncx" secondAttribute="top" constant="3" id="HQU-o9-E3y"/>
+                        <constraint firstItem="lX7-aC-zol" firstAttribute="top" secondItem="HB9-pB-XEQ" secondAttribute="bottom" constant="40" id="Lus-x4-cNA"/>
+                        <constraint firstItem="HB9-pB-XEQ" firstAttribute="top" secondItem="rM5-9I-Ncx" secondAttribute="bottom" constant="5" id="Ozw-JC-hS0"/>
+                        <constraint firstItem="Ovn-B0-6v0" firstAttribute="leading" secondItem="WhY-xq-qXK" secondAttribute="leading" constant="30" id="RRe-Xu-905"/>
+                        <constraint firstItem="lX7-aC-zol" firstAttribute="leading" secondItem="WhY-xq-qXK" secondAttribute="leading" constant="17" id="SqK-Ij-qFM"/>
+                        <constraint firstItem="HB9-pB-XEQ" firstAttribute="top" secondItem="jUX-UN-0Qs" secondAttribute="top" constant="-3" id="UNP-lV-VkH"/>
+                        <constraint firstAttribute="trailing" secondItem="lX7-aC-zol" secondAttribute="trailing" constant="17" id="aef-PK-fYn"/>
+                        <constraint firstItem="rM5-9I-Ncx" firstAttribute="leading" secondItem="fUm-K6-fh6" secondAttribute="trailing" constant="5" id="bxq-jZ-QVs"/>
+                        <constraint firstItem="Ovn-B0-6v0" firstAttribute="top" secondItem="ChH-Cj-1XU" secondAttribute="bottom" constant="30" id="nbf-u6-AZA"/>
+                        <constraint firstItem="ChH-Cj-1XU" firstAttribute="top" secondItem="WhY-xq-qXK" secondAttribute="top" constant="30" id="ubi-2c-mHm"/>
+                        <constraint firstItem="ChH-Cj-1XU" firstAttribute="centerX" secondItem="WhY-xq-qXK" secondAttribute="centerX" id="vTn-7n-N0e"/>
+                        <constraint firstItem="2K2-C4-CSm" firstAttribute="top" secondItem="lX7-aC-zol" secondAttribute="bottom" constant="17" id="wrM-8f-m9s"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="WhY-xq-qXK" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="SVM-nC-jWj"/>
+                <constraint firstItem="WhY-xq-qXK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="gNp-vF-8Ns"/>
+                <constraint firstItem="WhY-xq-qXK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qfr-M1-jRM"/>
+            </constraints>
+            <point key="canvasLocation" x="-132" y="19"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="main_receipt_btn" width="365" height="75"/>
+        <image name="main_safe_left" width="8" height="8"/>
+        <image name="main_safe_waring" width="149" height="148"/>
+    </resources>
+</document>

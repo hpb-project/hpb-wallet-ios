@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HPBShowKstoreCodeView" customModule="HPBWallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="563"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="仅供直接扫描" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kj-t9-zyn">
+                    <rect key="frame" x="16" y="24" width="92" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="iV0-gf-6vR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在安全环境下使用" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIZ-x4-IBr">
+                    <rect key="frame" x="16" y="97.5" width="123" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="5Xw-Nl-3jc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="二维码禁止保存、截图、以及拍照。仅供用户在安全环境下直接扫描来方便的导入钱包。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jc-ry-X1s">
+                    <rect key="frame" x="16" y="50" width="343" height="31.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40784313729999999" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请在确保四周无人及摄像头的情况下使用。二维码一旦被他人获取将造成不可挽回的资产损失。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06I-z8-Gpk">
+                    <rect key="frame" x="16" y="130.5" width="343" height="31.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40784313729999999" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blW-j5-398" customClass="HPBSelectImgeButton" customModule="HPBWallet" customModuleProvider="target">
+                    <rect key="frame" x="29" y="492" width="317" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="kPh-Kl-Bnv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="显示二维码">
+                        <color key="titleColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="showCodeBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="hEE-nG-Fb4"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WYI-RV-v5q">
+                    <rect key="frame" x="87.5" y="227" width="200" height="200"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="383-5I-cya">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="my_export_keystore_code" translatesAutoresizingMaskIntoConstraints="NO" id="T6x-HU-Hki">
+                            <rect key="frame" x="70" y="50" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="T6c-hW-Kpc"/>
+                                <constraint firstAttribute="height" constant="60" id="lgf-8X-7IG"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="确认周围无人及摄像头" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89C-sH-WTG">
+                            <rect key="frame" x="25" y="125" width="150" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="0.18039215689999999" green="0.1843137255" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.88235294117647056" green="0.88235294117647056" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="HdG-1d-pTO"/>
+                        <constraint firstAttribute="height" constant="200" id="Ilg-e4-t8R"/>
+                        <constraint firstItem="383-5I-cya" firstAttribute="leading" secondItem="WYI-RV-v5q" secondAttribute="leading" id="UXs-ne-0Iy"/>
+                        <constraint firstAttribute="trailing" secondItem="383-5I-cya" secondAttribute="trailing" id="Wdd-gY-U44"/>
+                        <constraint firstItem="89C-sH-WTG" firstAttribute="leading" secondItem="WYI-RV-v5q" secondAttribute="leading" constant="25" id="hSh-3Y-3sC"/>
+                        <constraint firstAttribute="bottom" secondItem="383-5I-cya" secondAttribute="bottom" id="hwy-Wn-EBC"/>
+                        <constraint firstAttribute="trailing" secondItem="89C-sH-WTG" secondAttribute="trailing" constant="25" id="k6P-bi-0NY"/>
+                        <constraint firstItem="89C-sH-WTG" firstAttribute="top" secondItem="T6x-HU-Hki" secondAttribute="bottom" constant="15" id="kgp-8C-fRy"/>
+                        <constraint firstItem="T6x-HU-Hki" firstAttribute="centerX" secondItem="383-5I-cya" secondAttribute="centerX" id="msG-B5-Kdt"/>
+                        <constraint firstItem="383-5I-cya" firstAttribute="top" secondItem="WYI-RV-v5q" secondAttribute="top" id="o1T-fC-onJ"/>
+                        <constraint firstItem="T6x-HU-Hki" firstAttribute="top" secondItem="WYI-RV-v5q" secondAttribute="top" constant="50" id="zgc-fh-FHR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="xIZ-x4-IBr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="1OB-DM-RmI"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xIZ-x4-IBr" secondAttribute="trailing" constant="20" symbolic="YES" id="79f-yn-XmK"/>
+                <constraint firstItem="blW-j5-398" firstAttribute="top" secondItem="WYI-RV-v5q" secondAttribute="bottom" constant="65" id="7Vx-iq-sG7"/>
+                <constraint firstItem="3jc-ry-X1s" firstAttribute="top" secondItem="4kj-t9-zyn" secondAttribute="bottom" constant="8" id="9I3-DD-wdq"/>
+                <constraint firstItem="4kj-t9-zyn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Arr-qz-PIA"/>
+                <constraint firstItem="WYI-RV-v5q" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="CLb-xZ-hPe"/>
+                <constraint firstItem="3jc-ry-X1s" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Jv7-SJ-3Qf"/>
+                <constraint firstAttribute="trailing" secondItem="06I-z8-Gpk" secondAttribute="trailing" constant="16" id="NLl-WT-VgC"/>
+                <constraint firstItem="blW-j5-398" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="W9N-2F-Nmi"/>
+                <constraint firstItem="06I-z8-Gpk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="YK7-Vd-7yv"/>
+                <constraint firstItem="WYI-RV-v5q" firstAttribute="top" secondItem="06I-z8-Gpk" secondAttribute="bottom" constant="65" id="d6F-Xo-eas"/>
+                <constraint firstItem="blW-j5-398" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="29" id="eWB-J1-2WX"/>
+                <constraint firstItem="06I-z8-Gpk" firstAttribute="top" secondItem="xIZ-x4-IBr" secondAttribute="bottom" constant="15" id="fPb-9B-dh5"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4kj-t9-zyn" secondAttribute="trailing" constant="20" symbolic="YES" id="uDZ-X0-Kwz"/>
+                <constraint firstItem="xIZ-x4-IBr" firstAttribute="top" secondItem="3jc-ry-X1s" secondAttribute="bottom" constant="16" id="ums-Us-ZrT"/>
+                <constraint firstAttribute="trailing" secondItem="3jc-ry-X1s" secondAttribute="trailing" constant="16" id="vAL-NN-KG9"/>
+                <constraint firstItem="4kj-t9-zyn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="24" id="zRU-Tr-RWt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottomContentLabel" destination="06I-z8-Gpk" id="l32-Ve-uBW"/>
+                <outlet property="bottomTitleLabel" destination="xIZ-x4-IBr" id="x6n-JO-aml"/>
+                <outlet property="qrcodeImage" destination="383-5I-cya" id="nBd-tk-F7B"/>
+                <outlet property="showcodeBtn" destination="blW-j5-398" id="rq3-JB-QTB"/>
+                <outlet property="topContentLabel" destination="3jc-ry-X1s" id="paV-lA-4Kn"/>
+                <outlet property="topTitleLabel" destination="4kj-t9-zyn" id="KoJ-TE-mTL"/>
+                <outlet property="waringImageView" destination="T6x-HU-Hki" id="UF2-1n-lsS"/>
+                <outlet property="waringLabel" destination="89C-sH-WTG" id="ziH-ve-baQ"/>
+            </connections>
+            <point key="canvasLocation" x="-23.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="my_export_keystore_code" width="49" height="48"/>
+    </resources>
+</document>

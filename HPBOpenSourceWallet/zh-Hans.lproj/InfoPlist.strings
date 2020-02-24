@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  HPBWallet
+
+  Created by liuxiaoliang on 2019/5/7.
+  Copyright © 2019 Zhaoxi Network. All rights reserved.
+*/
+
+
+NSCalendarsUsageDescription = "需要访问日历";
+NSCameraUsageDescription = "需要访问相机扫描账户二维码去获取地址";
+NSContactsUsageDescription = "需要访问通讯录";
+NSFaceIDUsageDescription =  "需要获取您的FaceID去解锁APP";
+NSPhotoLibraryAddUsageDescription = "需要访问相册获取二维码图片";
+NSPhotoLibraryUsageDescription = "保存图片到相册";
